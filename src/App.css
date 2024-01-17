@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+
+.lista li {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.lista img {
+  width: 20%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
