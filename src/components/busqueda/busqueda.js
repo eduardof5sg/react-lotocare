@@ -9,7 +9,7 @@ function Busqueda() {
   useEffect(() => {
     // Usar los datos locales directamente
     setDatos(datosLocales);
-  }, [  ]); // El segundo argumento [] significa que useEffect se ejecutará solo una vez al montar el componente
+  }, []); // El segundo argumento [] significa que useEffect se ejecutará solo una vez al montar el componente
 
   const handleBusqueda = () => {
     // Filtrar los datos según la búsqueda
@@ -40,20 +40,24 @@ function Busqueda() {
 
       {busqueda !== '' && datos.length ? (
         // Renderizar los datos si hay resultados y el campo de búsqueda no está vacío
-        <ul className='lista'>
-          {datos.map(item => (
-            <li  key={item.id}>
-              {item.nombre}
-              <img src={item.img} alt={item.nombre} />
-            </li>
-          ))}
-        </ul>
+        <>
+          <p>Resultados para: {busqueda}</p>
+          <ul className='lista'>
+            {datos.map(item => (
+              <li key={item.id}>
+                {item.nombre}
+                <img src={item.img} alt={item.nombre} />
+              </li>
+            ))}
+          </ul>
+        </>
       ) : null}
     </div>
   );
 }
 
 export default Busqueda;
+
 
 
 

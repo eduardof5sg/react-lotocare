@@ -3,13 +3,14 @@
 }
 
 
-.lista li {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
+.lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+  gap: 10px; /* Espaciado entre las celdas, ajusta según tus necesidades */
+  justify-content: center; /* Centra las celdas horizontalmente */
 }
 .lista img {
-  width: 20%;
+  width: 10%;
 }
 .App-logo {
   height: 40vmin;
