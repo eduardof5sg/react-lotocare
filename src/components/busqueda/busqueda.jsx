@@ -27,8 +27,8 @@ function Busqueda() {
   };
 
   return (
-    <div className='principal'>
-      <div className="busqueda-container">
+    <div>
+      <div>
         <input
           type="text"
           placeholder="Buscar..."
