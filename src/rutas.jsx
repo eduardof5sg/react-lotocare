@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Busqueda from './components/busqueda/busqueda';
+import Busqueda from './pages/productos/productos';
 import PaginaPrincipal from './pages/home/home';  // Ajusta la ruta según tu estructura
 // import Formulario from './pages/Formulario/Formulario';
 // import Cesta from './pages/Cesta/Cesta';
@@ -14,7 +14,7 @@ const Ruta = () => {
     <Router>
         <Routes>
             <Route path="/" element={<PaginaPrincipal />} />
-            <Route path="/busqueda" element={<Busqueda />} />
+            <Route path="/productos" element={<Busqueda />} />
             {/* <Route path="/formulario" element={<Formulario />} /> */}
             {/* <Route path="/cesta" element={<Cesta />} /> */}
             {/* <Route path="/perfil-usuario" element={<PerfilUsuario />} /> */}

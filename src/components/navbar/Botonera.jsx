@@ -9,7 +9,7 @@ export class Botonera extends PureComponent {
     return (
       <div className="botonera">
         {/* Aquí se agregan los botones de menú */}
-        <Link to="/busqueda" aria-label="Buscar">
+        <Link to="/productos" aria-label="Buscar">
           <i className='bx bx-search-alt-2'></i>
         </Link>
         <Link to="/perfil" aria-label="Mi perfil">
