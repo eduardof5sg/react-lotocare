@@ -6,6 +6,7 @@ import datosLocales from '/Users/Administrator/Documents/GitHub/lotocare-react/s
 function App() {
   return (
     <div className="App">
+      
       <Busqueda />
       <p>aquí estaría la navbar</p>
       <h1>Aquí deberían estar las rutas que nos redirijan a home.jsx</h1>
