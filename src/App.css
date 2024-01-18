@@ -2,37 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* INICIO Estilos de la parte de LUIS */
+.logo{
+  width: 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#BORRAR{
+  position: absolute;
+  top: 70px;
+  height: 1500px;
+  width: 100%;
+  background-color: yellow;
+  flex: 1;
+  overflow-y: auto;
+  z-index: 0;
+  background-image: url(../src/image/logo-pestana.svg);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* FIN Estilos de la parte de LUIS */

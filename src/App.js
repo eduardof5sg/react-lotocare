@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Cabecera from './components/navbar/Cabecera'
+import Cuerpo from './components/Cuerpo' // Sustituir en cada caso por el componente correspondiente
+import Footer from './components/navbar/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Cabecera />
+      <Cuerpo /> {/* Sustituir en cada caso por el componente correspondiente*/}
+      <Footer />
     </div>
   );
 }

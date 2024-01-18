@@ -1,0 +1,21 @@
+.botonera {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px 4px;
+    display: flex;
+  }
+.botonera a i{
+    font-size:larger;
+}
+  .botonera a{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .botonera a:hover{
+    padding: 10px;
+    color: #30b0ff;
+    text-decoration: none;
+  }
