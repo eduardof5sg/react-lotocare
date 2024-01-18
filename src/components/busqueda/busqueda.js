@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import datosLocales from '/Users/Administrator/Documents/GitHub/lotocare-react/src/recursos/lotocare.json';
+import datosLocales from '../../lotocare.json';
 
 
 function Busqueda() {
