@@ -1,6 +1,7 @@
 import { Row, Col } from "react-bootstrap";
-import { productsArray } from "./productsStore";
-import ProductCard from "../ProductCard";
+import { productsArray } from "../../components/Compra/Shopping/productsStore";
+import ProductCard from "../../components/Compra/ProductCard";
+
 function Store() {
   return (
     <>
@@ -16,3 +17,6 @@ function Store() {
 }
 
 export default Store;
+
+
+

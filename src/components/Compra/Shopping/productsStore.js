@@ -1,6 +1,6 @@
 import productsArray from "./lotocare.json";
 
-function getProductData(productsArray) {
+function getProductData(id) {
     console.log(productsArray);
     let productData = productsArray.find(product => product.id === id);
 
