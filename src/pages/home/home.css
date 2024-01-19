@@ -1,8 +1,8 @@
 .landing-page {
     height: 500px;
-  }
+}
   
-  .fixed-text {
+.fixed-text {
     position: fixed;
     top: 0;
     left: 50%;
@@ -11,20 +11,21 @@
     width: 100%;
     padding: 20px;
     z-index: 1000;
-    transition: top 0.3s ease-in-out;
-  }
+    transition: top 0.1s ease-in;
+    transition: top 0.3s ease out;
+}
   
-  .fixed-text h1 {
+.fixed-text h1 {
     font-size: 24px;
     margin: 0;
-  }
+}
   
-  .fixed-text p {
+.fixed-text p {
     font-size: 14px;
     margin: 0;
-  }
+}
   
-  .other-elements {
+.other-elements {
     margin-top: 80px;
-  }
+}
   
