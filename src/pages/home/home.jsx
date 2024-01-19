@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css'
 import ImageCarousel from '../../components/carrusel/carrusel';
-import datosLocales from '/Users/Administrator/Documents/GitHub/lotocare-react/src/recursos/lotocare.json';
+import datosLocales from '../../components/Compra/Shopping/lotocare.json';
 // import Cabecera from '../../components/navbar/Cabecera';
 // import Footer from '../../components/navbar/Footer';
 import Landingpage from '../../components/landing/bannerhome'
