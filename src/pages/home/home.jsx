@@ -5,6 +5,8 @@ import datosLocales from '/Users/Administrator/Documents/GitHub/lotocare-react/s
 // import Cabecera from '../../components/navbar/Cabecera';
 // import Footer from '../../components/navbar/Footer';
 import Landingpage from '../../components/landing/bannerhome'
+import Promobanner from '../../components/landing/bannerPromo'
+import '../../components/landing/home.css'
 
 const PaginaPrincipal = () => {
   return (
@@ -14,6 +16,10 @@ const PaginaPrincipal = () => {
       </div>
       <div style={{ zIndex: 2, height:'10%' }}>
         <ImageCarousel  data={datosLocales} />
+       
+      </div> 
+      <div>
+        <Promobanner />
       </div>
     </div>
   );
