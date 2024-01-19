@@ -16,13 +16,32 @@ const OurTeam = () => {
 
   return (
     <div className="our-team">
-      {teamMembers.map((member) => (
-        <div className="team-card" key={member.id}>
-          <img src={member.image} alt={`Team Member ${member.id}`} />
-          <h3>{member.name}</h3>
-          <p>{member.role}</p>
+      <div className="diamond-row">
+        <div className="team-card single-card">
+          <img src={teamMembers[0].image} alt={`Team Member ${teamMembers[0].id}`} />
+          <h3>{teamMembers[0].name}</h3>
+          <p>{teamMembers[0].role}</p>
         </div>
-      ))}
+      </div>
+      <div className="diamond-row">
+        <div className="team-card double-card">
+          <img src={teamMembers[1].image} alt={`Team Member ${teamMembers[1].id}`} />
+          <h3>{teamMembers[1].name}</h3>
+          <p>{teamMembers[1].role}</p>
+        </div>
+        <div className="team-card double-card">
+          <img src={teamMembers[2].image} alt={`Team Member ${teamMembers[2].id}`} />
+          <h3>{teamMembers[2].name}</h3>
+          <p>{teamMembers[2].role}</p>
+        </div>
+      </div>
+      <div className="diamond-row">
+        <div className="team-card single-card">
+          <img src={teamMembers[3].image} alt={`Team Member ${teamMembers[3].id}`} />
+          <h3>{teamMembers[3].name}</h3>
+          <p>{teamMembers[3].role}</p>
+        </div>
+      </div>
     </div>
   );
 };
