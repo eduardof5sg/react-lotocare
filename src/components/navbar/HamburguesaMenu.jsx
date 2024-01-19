@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './hamburguesaMenu.css'; // Estilos CSS para el menú
 
 const HamburguesaMenu = () => {
@@ -17,12 +18,12 @@ const HamburguesaMenu = () => {
       </div>
       {menuOpen && (
         <div className="menu-content">
-          {/* Aquí se agregan los elementos de menú */}
-          <a href="../index.html">Inicio</a>
-          <a href="../src/pages/perfil">Productos</a>
-          <a href="../src/pages/aboutUs">Sobre nosotros</a>
-          <a href="../src/pages/aboutUs">Contacto</a>
-        </div>
+        {/* Utilizar Link en lugar de <a> */}
+        <Link to="/">Inicio</Link>
+        <Link to="/productos">Productos</Link>
+        <Link to="/sobre-nosotros">Sobre nosotros</Link>
+        <Link to="/contacto">Contacto</Link>
+      </div>
       )}
     </div>
   );

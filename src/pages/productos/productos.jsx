@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import datosLocales from '/Users/Administrator/Documents/GitHub/lotocare-react/src/recursos/lotocare.json';
-import Cabecera from '../../components/navbar/Cabecera';
-import Footer from '../../components/navbar/Footer';
 import '../productos/productos.css';
 
 function Busqueda() {
@@ -43,7 +41,7 @@ function Busqueda() {
 
   return (
     <div>
-      <Cabecera />
+      
       <div className='busqueda'>
         <input
           type="text"
@@ -78,7 +76,7 @@ function Busqueda() {
             </ul>
           </div>
     </div>
-      <Footer />
+      
       
     </div>
   );

@@ -1,11 +1,15 @@
 
 .titulo {
     margin: 5vh;
+    padding-bottom: 50px;
+    position: relative;
+    
 }
 
 .contenedor {
     width: 10%;
     max-height: 50vh;
+
         
 }
 .imagenCarrusel img{
