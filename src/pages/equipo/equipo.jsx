@@ -1,10 +1,10 @@
 // src/components/OurTeam.js
 import React from 'react';
-import teamMember1 from '../../image/team/member1.jpg';
-import teamMember2 from '../../image/team/member2.jpg';
-import teamMember3 from '../../image/team/member3.jpg';
-import teamMember4 from '../../image/team/member4.jpg';
-import './equipo.css'; // Create a separate CSS file for styling
+import teamMember1 from '../../image/pfpedu.png';
+import teamMember2 from '../../image/pfplu.png';
+import teamMember3 from '../../image/pfpale.png';
+import teamMember4 from '../../image/pfpalmu.png';
+import './equipo.css'; 
 
 const OurTeam = () => {
   const teamMembers = [
