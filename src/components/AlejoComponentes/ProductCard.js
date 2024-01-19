@@ -1,4 +1,3 @@
-// ProductCard.js
 import React, { useContext } from "react";
 import { Card, Button, Form, Row, Col } from "react-bootstrap";
 import { CartContext } from "./CartContext";
@@ -9,9 +8,10 @@ function ProductCard({ product }) {
 
   return (
     <Card>
+      <Card.Img variant="top" src={product.img} alt={product.altText} />
       <Card.Body>
-        <Card.Title>{product.title}</Card.Title>
-        <Card.Text>${product.price}</Card.Text>
+        <Card.Title>{product.nombre}</Card.Title>
+        <Card.Text>€{product.precio}</Card.Text>
         {productQuantity > 0 ? (
           <>
             <Form as={Row}>
