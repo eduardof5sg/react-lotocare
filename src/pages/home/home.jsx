@@ -6,7 +6,7 @@ import datosLocales from '/Users/Administrator/Documents/GitHub/lotocare-react/s
 // import Footer from '../../components/navbar/Footer';
 import Landingpage from '../../components/landing/bannerhome'
 import Promobanner from '../../components/landing/bannerPromo'
-import '../../components/landing/home.css'
+
 
 const PaginaPrincipal = () => {
   return (

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Parallax } from 'react-parallax';
 import bannerImage from '../../image/brand/shiny-modelo.jpg';
-// import '../../components/landing/home.css';
+import '../../components/landing/home.css';
 
 const LandingPage = () => {
   const [fixedText, setFixedText] = useState(false);
