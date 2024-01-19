@@ -10,6 +10,8 @@ import PaginaPrincipal from './pages/home/home';  // Ajusta la ruta según tu es
 // import ProductoDetallado from './pages/ProductoDetallado/ProductoDetallado';
 import Cabecera from './components/navbar/Cabecera';
 import Footer from './components/navbar/Footer';
+import AboutUs from './pages/aboutUs/about';
+import OurTeam from './pages/equipo/equipo';
 
 const Ruta = () => {
   return (
@@ -18,6 +20,8 @@ const Ruta = () => {
           <Routes>          
             <Route path="/" element={<PaginaPrincipal />} />
             <Route path="/productos" element={<Busqueda />} />
+            <Route path="/aboutUs" element={<AboutUs />} />
+            <Route path="/equipo" element={<OurTeam />} />
             {/* <Route path="/formulario" element={<Formulario />} /> */}
             {/* <Route path="/cesta" element={<Cesta />} /> */}
             {/* <Route path="/perfil-usuario" element={<PerfilUsuario />} /> */}

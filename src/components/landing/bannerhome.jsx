@@ -1,23 +1,39 @@
 // src/components/LandingPage.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Parallax } from 'react-parallax';
-import bannerImage from '../../image/brand/shiny-modelo.jpg'
+import bannerImage from '../../image/brand/shiny-modelo.jpg';
+import '../../components/landing/home.css';
 
 const LandingPage = () => {
+  const [fixedText, setFixedText] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setFixedText(window.scrollY > 200);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-   <div>
-      {/* Big banner image with parallax effect */}
-      <Parallax bgImage={bannerImage} strength={500}>
-        <div id='bannerHome' style={{ height: '100vh' }}>
-          {/* Content inside the parallax section */}
-          <h1>LotoCare</h1>
-          <p>El cuidado de la naturaleza en tu piel</p>
+    <div className="landing-page">
+        <Parallax bgImage={bannerImage} strength={500}>
+        <div className={fixedText ? 'fixed-text' : ''}>
+          
+          <div>
+            <h1>LotoCare</h1>
+            <p>La Esencia de la Naturaleza enn tu Piel</p>
+          </div>
         </div>
       </Parallax>
 
-      {/* Other elements on the landing page */}
-      <div> 
-        {/* Other sections and elements */}
+      
+      <div className="other-elements">
+        
       </div>
     </div>
   );
