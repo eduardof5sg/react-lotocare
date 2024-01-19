@@ -1,5 +1,5 @@
 import './App.css';
-import LandingPage from './components/home/bannerhome';
+import LandingPage from './pages/home/bannerhome';
 import Busqueda from './components/busqueda/busqueda';
 import ImageCarousel from './components/carrusel/carrusel';
 import datosLocales from '../src/lotocare.json';

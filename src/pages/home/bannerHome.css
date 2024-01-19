@@ -1,0 +1,30 @@
+.landing-page {
+    height: 500px;
+  }
+  
+  .fixed-text {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .fixed-text h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .fixed-text p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .other-elements {
+    margin-top: 80px;
+  }
+  
