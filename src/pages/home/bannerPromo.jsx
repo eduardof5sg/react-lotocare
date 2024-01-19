@@ -1,5 +1,6 @@
 // src/components/PromoBanner.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import bannerImage from '../../image/brand/modelo-producto.jpg';
 import './promo.css'; 
 
