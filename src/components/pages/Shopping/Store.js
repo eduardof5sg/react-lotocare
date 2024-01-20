@@ -1,6 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import { productsArray } from "./productsStore";
-import ProductCard from "../ProductCard";
+import ProductCard from "../../ProductCard";
 function Store() {
   return (
     <>
