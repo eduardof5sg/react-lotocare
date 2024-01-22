@@ -1,7 +1,7 @@
 import React from 'react';
 // import '../../App.css'
 import ImageCarousel from '../../components/carrusel/carrusel';
-import datosLocales from '../../components/Compra/Shopping/lotocare.json';
+import datosLocales from '../../db.json';
 // import Cabecera from '../../components/navbar/Cabecera';
 // import Footer from '../../components/navbar/Footer';
 import Landingpage from '../../components/landing/bannerhome'

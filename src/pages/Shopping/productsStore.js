@@ -1,4 +1,4 @@
-import productsArray from "./lotocare.json";
+import productsArray from "../../db.json";
 
 function getProductData(id) {
     console.log(productsArray);
