@@ -3,9 +3,9 @@
 ![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
 ![GitHub](https://github.com/eduardof5sg/react-lotocare) 
-[![Netlify Status]()]()
 
-**[Visita el Sitio Desplegado]()**
+**[Visita el Sitio Desplegado]()** ![image]({[BadgeURLHere](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
+)})
 
 Welcome to LotoCare, your go-to destination for natural skincare and makeup products. Based in Madrid, our mission is to provide you with high-quality, eco-friendly beauty solutions that enhance your natural beauty.
 
@@ -39,12 +39,18 @@ Meet the faces behind LotoCare. Our diverse team is dedicated to bringing you ef
 
 ## Tech Stack
 
-- HTML
-- CSS
-- React
-- Bootstrap
-- Figma (Design)
-- Trello (Project Management)
+- ![image]({https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+}) HTML
+- ![image]({https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+}) CSS
+- ![image]({https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+}) React
+- ![image]({https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+}) Bootstrap
+- ![image]({https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+}) Figma (Design)
+- ![image]({https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
+}) Trello (Project Management)
 
 ## Getting Started
 
@@ -56,10 +62,9 @@ Your natural beauty journey begins here!
 
 # LotoCare
 
-<!-- Add Logos and Name Section Here -->
+![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
 ![GitHub]() 
-![GitHub last commit]() 
 [![Netlify Status]()]()
 
 **[Visita el Sitio Desplegado]()**
@@ -96,12 +101,18 @@ Conoce a los rostros detrás de LotoCare. Nuestro equipo diverso está dedicado 
 
 ## Tecnologías Utilizadas
 
-- HTML
-- CSS
-- React
-- Bootstrap
-- Figma (Diseño)
-- Trello (Gestión de Proyectos)
+- ![image]({https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+}) HTML
+- ![image]({https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+}) CSS
+- ![image]({https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+}) React
+- ![image]({https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+}) Bootstrap
+- ![image]({https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+}) Figma (Design)
+- ![image]({https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
+}) Trello (Project Management)
 
 ## Empezando
 
