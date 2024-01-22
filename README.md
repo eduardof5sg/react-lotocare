@@ -37,18 +37,12 @@ Meet the faces behind LotoCare. Our diverse team is dedicated to bringing you ef
 
 ## Tech Stack :computer:	:cd:	
 
-- ![image]({(https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-)}) HTML
-- ![image]({(https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-)}) CSS
-- ![image]({(https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-)}) React
-- ![image]({(https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-)}) Bootstrap
-- ![image]({(https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
-)}) Figma (Design)
-- ![image]({(https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
-)}) Trello (Project Management)
+- HTML
+- CSS
+- React
+- Bootstrap
+- Figma (Design)
+- Trello (Project Management)
 
 ## Getting Started :rocket:	
 
@@ -56,7 +50,11 @@ Meet the faces behind LotoCare. Our diverse team is dedicated to bringing you ef
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
-Your natural beauty journey begins here!
+Your natural beauty journey begins here! :blossom:	:star2:	:massage_woman:	
+
+
+
+
 
 ![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
@@ -97,18 +95,12 @@ Conoce a los rostros detrás de LotoCare. Nuestro equipo diverso está dedicado 
 
 ## Tecnologías Utilizadas :computer:	:cd:
 
-- ![image]({(https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-)}) HTML
-- ![image]({(https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-)}) CSS
-- ![image]({(https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-)}) React
-- ![image]({(https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-)}) Bootstrap
-- ![image]({(https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
-)}) Figma (Design)
-- ![image]({(https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
-)}) Trello (Project Management)
+- HTML
+- CSS
+- React
+- Bootstrap
+- Figma (Design)
+- Trello (Project Management)
 
 ## Empezando :rocket:	
 
@@ -116,5 +108,5 @@ Conoce a los rostros detrás de LotoCare. Nuestro equipo diverso está dedicado 
 2. Instala las dependencias: `npm install`
 3. Inicia el servidor de desarrollo: `npm start`
 
-¡Tu viaje hacia la belleza natural comienza aquí
+¡Tu viaje hacia la belleza natural comienza aquí! :blossom:	:star2:	:massage_woman:	
 
