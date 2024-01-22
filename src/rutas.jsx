@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Store from './pages/productos/Store';
+import Store from './pages/Shopping/Store';
 import PaginaPrincipal from './pages/home/home';  // Ajusta la ruta según tu estructura
 // import Formulario from './pages/Formulario/Formulario';
 // import Cesta from './pages/Cesta/Cesta';
