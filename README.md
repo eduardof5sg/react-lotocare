@@ -1,5 +1,3 @@
-# LotoCare
-
 ![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
 ![GitHub](https://github.com/eduardof5sg/react-lotocare) 
@@ -9,11 +7,11 @@
 
 Welcome to LotoCare, your go-to destination for natural skincare and makeup products. Based in Madrid, our mission is to provide you with high-quality, eco-friendly beauty solutions that enhance your natural beauty.
 
-## About Us
+## About Us :seedling: :herb:
 
 At LotoCare, we believe in the power of nature to nourish and rejuvenate your skin. Our products are crafted with care, using natural ingredients sourced locally. We are committed to sustainability, simplicity, and promoting beauty in all its forms.
 
-## Features
+## Features :white_flower:	
 
 - **Extensive Product Range:** Explore our wide range of natural skincare and makeup products designed to cater to various skin types and beauty preferences.
 
@@ -21,7 +19,7 @@ At LotoCare, we believe in the power of nature to nourish and rejuvenate your sk
 
 - **Sustainability:** Embrace a simple and sustainable lifestyle with our products. We believe in less waste, fewer steps in your beauty routine, and products that do what they promise.
 
-## Our Team
+## Our Team :man_technologist: :man_technologist: :man_technologist: :woman_technologist:	
 
 Meet the faces behind LotoCare. Our diverse team is dedicated to bringing you effective, simple, and skin-friendly beauty solutions.
 
@@ -37,30 +35,28 @@ Meet the faces behind LotoCare. Our diverse team is dedicated to bringing you ef
 - **Almudena**
   - *Scrum Master, Developer*
 
-## Tech Stack
+## Tech Stack :computer:	:cd:	
 
-- ![image]({https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-}) HTML
-- ![image]({https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-}) CSS
-- ![image]({https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-}) React
-- ![image]({https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-}) Bootstrap
-- ![image]({https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
-}) Figma (Design)
-- ![image]({https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
-}) Trello (Project Management)
+- ![image]({(https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+)}) HTML
+- ![image]({(https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+)}) CSS
+- ![image]({(https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+)}) React
+- ![image]({(https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+)}) Bootstrap
+- ![image]({(https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+)}) Figma (Design)
+- ![image]({(https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
+)}) Trello (Project Management)
 
-## Getting Started
+## Getting Started :rocket:	
 
 1. Clone the repository: `git clone https://github.com/your-username/react-lotocare.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
 Your natural beauty journey begins here!
-
-# LotoCare
 
 ![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
@@ -71,11 +67,11 @@ Your natural beauty journey begins here!
 
 Bienvenido a LotoCare, tu destino principal para productos naturales de cuidado de la piel y maquillaje. Con sede en Madrid, nuestra misión es proporcionarte soluciones de belleza ecológicas de alta calidad que realzan tu belleza natural.
 
-## Sobre Nosotros
+## Sobre Nosotros :seedling: :herb:	
 
 En LotoCare, creemos en el poder de la naturaleza para nutrir y rejuvenecer tu piel. Nuestros productos están elaborados con cuidado, utilizando ingredientes naturales provenientes de Madrid. Nos comprometemos con la sostenibilidad, la simplicidad y la promoción de la belleza en todas sus formas.
 
-## Características
+## Características :white_flower:	
 
 - **Amplia Gama de Productos:** Explora nuestra amplia gama de productos naturales para el cuidado de la piel y maquillaje diseñados para diversos tipos de piel y preferencias de belleza.
 
@@ -83,7 +79,7 @@ En LotoCare, creemos en el poder de la naturaleza para nutrir y rejuvenecer tu p
 
 - **Sostenibilidad:** Adopta un estilo de vida simple y sostenible con nuestros productos. Creemos en menos desperdicio, menos pasos en tu rutina de belleza y productos que cumplen con lo que prometen.
 
-## Nuestro Equipo
+## Nuestro Equipo :man_technologist: :man_technologist: :man_technologist: :woman_technologist:	
 
 Conoce a los rostros detrás de LotoCare. Nuestro equipo diverso está dedicado a ofrecerte soluciones de belleza efectivas, simples y amigables con la piel.
 
@@ -99,22 +95,22 @@ Conoce a los rostros detrás de LotoCare. Nuestro equipo diverso está dedicado 
 - **Almudena**
   - *Scrum Master, Developer*
 
-## Tecnologías Utilizadas
+## Tecnologías Utilizadas :computer:	:cd:
 
-- ![image]({https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-}) HTML
-- ![image]({https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-}) CSS
-- ![image]({https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-}) React
-- ![image]({https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-}) Bootstrap
-- ![image]({https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
-}) Figma (Design)
-- ![image]({https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
-}) Trello (Project Management)
+- ![image]({(https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+)}) HTML
+- ![image]({(https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+)}) CSS
+- ![image]({(https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+)}) React
+- ![image]({(https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+)}) Bootstrap
+- ![image]({(https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white
+)}) Figma (Design)
+- ![image]({(https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white
+)}) Trello (Project Management)
 
-## Empezando
+## Empezando :rocket:	
 
 1. Clona el repositorio: `git clone https://github.com/your-username/react-lotocare.git`
 2. Instala las dependencias: `npm install`
