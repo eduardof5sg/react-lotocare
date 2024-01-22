@@ -13,5 +13,3 @@ function getProductData(id) {
 }
 
 export { productsArray, getProductData };
-
-
