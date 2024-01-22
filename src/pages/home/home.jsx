@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css'
+// import '../../App.css'
 import ImageCarousel from '../../components/carrusel/carrusel';
 import datosLocales from '../../components/Compra/Shopping/lotocare.json';
 // import Cabecera from '../../components/navbar/Cabecera';
@@ -10,17 +10,12 @@ import Promobanner from '../../components/landing/bannerPromo'
 
 const PaginaPrincipal = () => {
   return (
-    <div className='home' >
-      <div style={{ zIndex: 1, height:'90%'}}> 
-        <Landingpage />      
-      </div>
-      <div style={{ zIndex: 2, height:'10%' }}>
-        <ImageCarousel  data={datosLocales} />
-       
-      </div> 
-      <div>
+    <div  >
+     
+        <Landingpage />     
+        <ImageCarousel  data={datosLocales} />       
         <Promobanner />
-      </div>
+     
     </div>
   );
 };

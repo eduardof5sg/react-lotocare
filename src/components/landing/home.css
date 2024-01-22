@@ -1,5 +1,5 @@
 .react-parallax {
-    position: static !important; /* Utiliza !important para asegurarte de que este estilo prevalezca */
+    position: relative!important; /* Utiliza !important para asegurarte de que este estilo prevalezca */
   }
 
 .landing-page {
