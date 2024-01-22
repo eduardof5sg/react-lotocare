@@ -1,9 +1,8 @@
 # LotoCare
 
-<!-- Add Logos and Name Section Here -->
+![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
-![GitHub]() 
-![GitHub last commit]() 
+![GitHub](https://github.com/eduardof5sg/react-lotocare) 
 [![Netlify Status]()]()
 
 **[Visita el Sitio Desplegado]()**
@@ -24,7 +23,7 @@ At LotoCare, we believe in the power of nature to nourish and rejuvenate your sk
 
 ## Our Team
 
-Meet the faces behind Natural Beauty Haven. Our diverse team is dedicated to bringing you effective, simple, and skin-friendly beauty solutions.
+Meet the faces behind LotoCare. Our diverse team is dedicated to bringing you effective, simple, and skin-friendly beauty solutions.
 
 - **Eduardo**
   - *Product Owner, Developer*
@@ -49,7 +48,7 @@ Meet the faces behind Natural Beauty Haven. Our diverse team is dedicated to bri
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/natural-beauty-haven.git`
+1. Clone the repository: `git clone https://github.com/your-username/react-lotocare.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 
@@ -65,7 +64,7 @@ Your natural beauty journey begins here!
 
 **[Visita el Sitio Desplegado]()**
 
-Bienvenido a Refugio de Belleza Natural, tu destino principal para productos naturales de cuidado de la piel y maquillaje. Con sede en Madrid, nuestra misión es proporcionarte soluciones de belleza ecológicas de alta calidad que realzan tu belleza natural.
+Bienvenido a LotoCare, tu destino principal para productos naturales de cuidado de la piel y maquillaje. Con sede en Madrid, nuestra misión es proporcionarte soluciones de belleza ecológicas de alta calidad que realzan tu belleza natural.
 
 ## Sobre Nosotros
 
@@ -106,7 +105,7 @@ Conoce a los rostros detrás de LotoCare. Nuestro equipo diverso está dedicado 
 
 ## Empezando
 
-1. Clona el repositorio: `git clone https://github.com/your-username/refugio-belleza-natural.git`
+1. Clona el repositorio: `git clone https://github.com/your-username/react-lotocare.git`
 2. Instala las dependencias: `npm install`
 3. Inicia el servidor de desarrollo: `npm start`
 
