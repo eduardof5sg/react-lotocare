@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { CartContext } from "../CartContext";
 import CartProduct from "../CartProduct";
-import { Button, Container, Navbar, Modal } from "react-bootstrap";
+import { Button, Navbar, Modal } from "react-bootstrap";
 
 function NavbarComponent() {
   const cart = useContext(CartContext);
