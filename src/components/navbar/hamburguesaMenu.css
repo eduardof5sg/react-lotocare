@@ -1,0 +1,66 @@
+.hamburguesa-menu {
+    position: relative;
+    top: 5px;
+    left: 0px;
+ }
+  
+  .menu-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: 0.9s ease-in-out;
+    background-color: transparent;
+  }
+  
+  .bar1,
+  .bar2,
+  .bar3 {
+    background-color: #333;
+    border-radius: 3px;
+    height: 3px;
+    width: 100%;
+    margin: 5px 0;
+    transition: 0.9s ease-in-out;
+  }
+  
+  .open .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  .menu-content {
+    position: absolute;
+    top: 60px;
+    left: -95px;
+    width: 30%;
+    background-color: #83c5be;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+  }
+  
+  .menu-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.8s;
+  }
+  
+  .menu-content a:hover {
+    background-color: #ddd;
+  }
+  

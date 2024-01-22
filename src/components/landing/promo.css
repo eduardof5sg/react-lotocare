@@ -1,0 +1,38 @@
+/* src/components/PromoBanner.css */
+
+.promo-banner {
+    background-image: url('../../image/brand/modelo-producto.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#1E1E1E;
+    padding: 10px 20px 70px 20px;
+    overflow: hidden; 
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+ 
+  .big-font-number {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .banner-middle {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .banner-right {
+    text-align: right;
+  }
+  
+  .double-arrow {
+    font-size: 24px;
+    color: #006D77;
+  }
+  

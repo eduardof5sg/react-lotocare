@@ -1,247 +1,247 @@
 [
-    {
-     "id": "001",
-     "nombre": "crema",
-     "img": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 20
-    },
-    {
-     "id": "002",
-     "nombre": "crema",
-     "img": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 20
-    },
-    {
-     "id": "003",
-     "nombre": "crema",
-     "img": "https://images.unsplash.com/photo-1556227834-09f1de7a7d14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 20
-    },
-    {
-     "id": "004",
-     "nombre": "crema",
-     "img": "https://images.unsplash.com/photo-1620917670397-dc7bc45eeda8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 20
-    },
-    {
-     "id": "005",
-     "nombre": "antiacne",
-     "img": "https://images.unsplash.com/photo-1601049541067-adaf79e7408e?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 15
-    },
-    {
-     "id": "006",
-     "nombre": "antiacne",
-     "img": "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 15
-    },
-    {
-     "id": "007",
-     "nombre": "ojeras",
-     "img": "https://images.unsplash.com/photo-1615396899839-c99c121888b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 15
-    },
-    {
-     "id": "008",
-     "nombre": "ojeras",
-     "img": "https://plus.unsplash.com/premium_photo-1678377959909-3542d8096fa5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 15
-    },
-    {
-     "id": "009",
-     "nombre": "hidratante",
-     "img": "https://images.unsplash.com/photo-1601049505392-eebe867c4329?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 20
-    },
-    {
-     "id": "010",
-     "nombre": "hidratante",
-     "img": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "skincare",
-     "precio": 20
-    },
-    {
-     "id": "011",
-     "nombre": "gloss",
-     "img": "https://images.pexels.com/photos\/3373744\/pexels-photo-3373744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-     "categoria": "labial",
-     "precio": 10
-    },
-    {
-     "id": "012",
-     "nombre": "gloss",
-     "img": "https://images.pexels.com/photos\/3373746\/pexels-photo-3373746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-     "categoria": "labial",
-     "precio": 10
-    },
-    {
-     "id": "013",
-     "nombre": "matte",
-     "img": "https://images.pexels.com/photos/850801/pexels-photo-850801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-     "categoria": "labial",
-     "precio": 10
-    },
-    {
-     "id": "014",
-     "nombre": "matte",
-     "img": "https://images.unsplash.com/photo-1626895872564-b691b6877b83?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "labial",
-     "precio": 10
-    },
-    {
-     "id": "015",
-     "nombre": "líquido",
-     "img": "https://plus.unsplash.com/premium_photo-1661768065574-c2a463343342?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "eyeliner",
-     "precio": 8
-    },
-    {
-     "id": "016",
-     "nombre": "líquido",
-     "img": "https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "eyeliner",
-     "precio": 8
-    },
-    {
-     "id": "017",
-     "nombre": "líquido",
-     "img": "https://images.unsplash.com/photo-1620804587331-effc68d47d7e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "eyeliner",
-     "precio": 8
-    },
-    {
-     "id": "018",
-     "nombre": "paleta",
-     "img": "https://images.pexels.com/photos/912950/pexels-photo-912950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-     "categoria": "eyeshadow",
-     "precio": 207
-    },
-    {
-     "id": "019",
-     "nombre": "paleta",
-     "img": "https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-     "categoria": "eyeshadow",
-     "precio": 20
-    },
-    {
-     "id": "020",
-     "nombre": "paleta",
-     "img": "https://images.pexels.com/photos/6662437/pexels-photo-6662437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-     "categoria": "eyeshadow",
-     "precio": 20
-    },
-    {
-     "id": "021",
-     "nombre": "longlast",
-     "img": "https://plus.unsplash.com\/premium_photo-1678377960130-bb70ffeb1cd8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "mascara",
-     "precio": 10
-    },
-    {
-     "id": "022",
-     "nombre": "longlast",
-     "img": "https://images.unsplash.com/photo-1597225244660-1cd128c64284?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "mascara",
-     "precio": 10
-    },
-    {
-     "id": "023",
-     "nombre": "blush",
-     "img": "https://images.unsplash.com\/photo-1560130055-e3306e04884b?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "colorete",
-     "precio": 8
-    },
-    {
-     "id": "024",
-     "nombre": "blush",
-     "img": "https://plus.unsplash.com\/premium_photo-1676818430931-b822bcc41dd7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "colorete",
-     "precio": 8
-    },
-    {
-     "id": "025",
-     "nombre": "blush",
-     "img": "https://plus.unsplash.com\/premium_photo-1677087454529-ba70fefe7d57?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "colorete",
-     "precio": 8
-    },
-    {
-     "id": "026",
-     "nombre": "tan",
-     "img": "https://plus.unsplash.com\/premium_photo-1697898008971-a45f218faf15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "bronceador",
-     "precio": 15
-    },
-    {
-     "id": "027",
-     "nombre": "tan",
-     "img": "https://images.unsplash.com\/photo-1531646317777-0619c7c5d1d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "bronceador",
-     "precio": 15
-    },
-    {
-     "id": "028",
-     "nombre": "light",
-     "img": "https://images.pexels.com\/photos\/2732197\/pexels-photo-2732197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-     "categoria": "base",
-     "precio": 15
-    },
-    {
-     "id": "029",
-     "nombre": "light",
-     "img": "https://images.pexels.com\/photos\/2688991\/pexels-photo-2688991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-     "categoria": "base",
-     "precio": 15
-    },
-    {
-     "id": "030",
-     "nombre": "shine",
-     "img": "https://images.pexels.com/photos/1499512/pexels-photo-1499512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-     "categoria": "iluminador",
-     "precio": 10
-    },
-    {
-     "id": "031",
-     "nombre": "shine",
-     "img": "https://images.pexels.com/photos/1499516/pexels-photo-1499516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-     "categoria": "iluminador",
-     "precio": 10
-    },
-    {
-     "id": "032",
-     "nombre": "shine",
-     "img": "https://images.unsplash.com\/photo-1515688594390-b649af70d282?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "iluminador",
-     "precio": 10
-    },
-    {
-     "id": "033",
-     "nombre": "shine",
-     "img": "https://images.unsplash.com\/photo-1512207724313-a4e675ec79ab?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "iluminador",
-     "precio": 10
-    },
-    {
-     "id": "034",
-     "nombre": "invisible",
-     "img": "https://images.unsplash.com\/photo-1688380321332-da6b01cd4996?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "prebase",
-     "precio": 20
-    },
-    {
-     "id": "035",
-     "nombre": "invisible",
-     "img": "https://images.unsplash.com\/photo-1688380353667-a6d3ddb85600?q=80&w=2040&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-     "categoria": "prebase",
-     "precio": 20
-    }
-   ]
+ {
+  "id": "001",
+  "nombre": "crema",
+  "img": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 20
+ },
+ {
+  "id": "002",
+  "nombre": "crema",
+  "img": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 20
+ },
+ {
+  "id": "003",
+  "nombre": "crema",
+  "img": "https://images.unsplash.com/photo-1556227834-09f1de7a7d14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 20
+ },
+ {
+  "id": "004",
+  "nombre": "crema",
+  "img": "https://images.unsplash.com/photo-1620917670397-dc7bc45eeda8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 20
+ },
+ {
+  "id": "005",
+  "nombre": "antiacne",
+  "img": "https://images.unsplash.com/photo-1601049541067-adaf79e7408e?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 15
+ },
+ {
+  "id": "006",
+  "nombre": "antiacne",
+  "img": "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 15
+ },
+ {
+  "id": "007",
+  "nombre": "ojeras",
+  "img": "https://images.unsplash.com/photo-1615396899839-c99c121888b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 15
+ },
+ {
+  "id": "008",
+  "nombre": "ojeras",
+  "img": "https://plus.unsplash.com/premium_photo-1678377959909-3542d8096fa5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 15
+ },
+ {
+  "id": "009",
+  "nombre": "hidratante",
+  "img": "https://images.unsplash.com/photo-1601049505392-eebe867c4329?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 20
+ },
+ {
+  "id": "010",
+  "nombre": "hidratante",
+  "img": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "skincare",
+  "precio": 20
+ },
+ {
+  "id": "011",
+  "nombre": "gloss",
+  "img": "https://images.pexels.com/photos\/3373744\/pexels-photo-3373744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "categoria": "labial",
+  "precio": 10
+ },
+ {
+  "id": "012",
+  "nombre": "gloss",
+  "img": "https://images.pexels.com/photos\/3373746\/pexels-photo-3373746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "categoria": "labial",
+  "precio": 10
+ },
+ {
+  "id": "013",
+  "nombre": "matte",
+  "img": "https://images.pexels.com/photos/850801/pexels-photo-850801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "categoria": "labial",
+  "precio": 10
+ },
+ {
+  "id": "014",
+  "nombre": "matte",
+  "img": "https://images.unsplash.com/photo-1626895872564-b691b6877b83?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "labial",
+  "precio": 10
+ },
+ {
+  "id": "015",
+  "nombre": "líquido",
+  "img": "https://plus.unsplash.com/premium_photo-1661768065574-c2a463343342?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "eyeliner",
+  "precio": 8
+ },
+ {
+  "id": "016",
+  "nombre": "líquido",
+  "img": "https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "eyeliner",
+  "precio": 8
+ },
+ {
+  "id": "017",
+  "nombre": "líquido",
+  "img": "https://images.unsplash.com/photo-1620804587331-effc68d47d7e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "eyeliner",
+  "precio": 8
+ },
+ {
+  "id": "018",
+  "nombre": "paleta",
+  "img": "https://images.pexels.com/photos/912950/pexels-photo-912950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "categoria": "eyeshadow",
+  "precio": 207
+ },
+ {
+  "id": "019",
+  "nombre": "paleta",
+  "img": "https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "categoria": "eyeshadow",
+  "precio": 20
+ },
+ {
+  "id": "020",
+  "nombre": "paleta",
+  "img": "https://images.pexels.com/photos/6662437/pexels-photo-6662437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "categoria": "eyeshadow",
+  "precio": 20
+ },
+ {
+  "id": "021",
+  "nombre": "longlast",
+  "img": "https://plus.unsplash.com\/premium_photo-1678377960130-bb70ffeb1cd8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "mascara",
+  "precio": 10
+ },
+ {
+  "id": "022",
+  "nombre": "longlast",
+  "img": "https://images.unsplash.com/photo-1597225244660-1cd128c64284?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "mascara",
+  "precio": 10
+ },
+ {
+  "id": "023",
+  "nombre": "blush",
+  "img": "https://images.unsplash.com\/photo-1560130055-e3306e04884b?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "colorete",
+  "precio": 8
+ },
+ {
+  "id": "024",
+  "nombre": "blush",
+  "img": "https://plus.unsplash.com\/premium_photo-1676818430931-b822bcc41dd7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "colorete",
+  "precio": 8
+ },
+ {
+  "id": "025",
+  "nombre": "blush",
+  "img": "https://plus.unsplash.com\/premium_photo-1677087454529-ba70fefe7d57?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "colorete",
+  "precio": 8
+ },
+ {
+  "id": "026",
+  "nombre": "tan",
+  "img": "https://plus.unsplash.com\/premium_photo-1697898008971-a45f218faf15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "bronceador",
+  "precio": 15
+ },
+ {
+  "id": "027",
+  "nombre": "tan",
+  "img": "https://images.unsplash.com\/photo-1531646317777-0619c7c5d1d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "bronceador",
+  "precio": 15
+ },
+ {
+  "id": "028",
+  "nombre": "light",
+  "img": "https://images.pexels.com\/photos\/2732197\/pexels-photo-2732197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "categoria": "base",
+  "precio": 15
+ },
+ {
+  "id": "029",
+  "nombre": "light",
+  "img": "https://images.pexels.com\/photos\/2688991\/pexels-photo-2688991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "categoria": "base",
+  "precio": 15
+ },
+ {
+  "id": "030",
+  "nombre": "shine",
+  "img": "https://images.pexels.com/photos/1499512/pexels-photo-1499512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "categoria": "iluminador",
+  "precio": 10
+ },
+ {
+  "id": "031",
+  "nombre": "shine",
+  "img": "https://images.pexels.com/photos/1499516/pexels-photo-1499516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  "categoria": "iluminador",
+  "precio": 10
+ },
+ {
+  "id": "032",
+  "nombre": "shine",
+  "img": "https://images.unsplash.com\/photo-1515688594390-b649af70d282?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "iluminador",
+  "precio": 10
+ },
+ {
+  "id": "033",
+  "nombre": "shine",
+  "img": "https://images.unsplash.com\/photo-1512207724313-a4e675ec79ab?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "iluminador",
+  "precio": 10
+ },
+ {
+  "id": "034",
+  "nombre": "invisible",
+  "img": "https://images.unsplash.com\/photo-1688380321332-da6b01cd4996?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "prebase",
+  "precio": 20
+ },
+ {
+  "id": "035",
+  "nombre": "invisible",
+  "img": "https://images.unsplash.com\/photo-1688380353667-a6d3ddb85600?q=80&w=2040&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "categoria": "prebase",
+  "precio": 20
+ }
+]
