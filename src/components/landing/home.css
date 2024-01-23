@@ -1,11 +1,7 @@
 .react-parallax {
-    position: relative!important; /* Utiliza !important para asegurarte de que este estilo prevalezca */
+    position: relative!important;
+    height: 120vh;/* Utiliza !important para asegurarte de que este estilo prevalezca */
   }
-
-.landing-page {
-
-    height: auto;
-}
   
 .fixed-text {
     position: relative;
@@ -20,14 +16,16 @@
     transition: top 0.3s ease out;
 }
   
-.fixed-text h1 {
-    font-size: 24px;
-    margin: 0;
+.landing-page h1 {
+    font-size: 54px;
+    margin-top: 40vh;
+    color: aliceblue;
 }
   
-.fixed-text p {
+.landing-page p {
     font-size: 14px;
     margin: 0;
+    color: aliceblue;
 }
   
 .other-elements {
