@@ -1,20 +1,20 @@
 [
  {
-  "id": "001",
+  "id": "price_1OZrXOHpcUDiH65mfSBVvq2k",
   "nombre": "crema",
   "img": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
   "precio": 20
  },
  {
-  "id": "002",
+  "id": "price_1OZrY4HpcUDiH65mmirJJeCi",
   "nombre": "crema",
   "img": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
   "precio": 20
  },
  {
-  "id": "003",
+  "id": "price_1OZrYOHpcUDiH65moIOoM3xM",
   "nombre": "crema",
   "img": "https://images.unsplash.com/photo-1556227834-09f1de7a7d14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",

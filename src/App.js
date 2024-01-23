@@ -2,6 +2,8 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Store from './pages/Shopping/Store';
+import Success from './pages/Shopping/Success';
+import Cancel from './pages/Shopping/Cancel';
 import CartProvider from './components/Shopping/CartContext';
 import PaginaPrincipal from './pages/home/home';
 import Cabecera from './components/navbar/Cabecera';
@@ -16,6 +18,8 @@ function App() {
                 <Routes>          
                   <Route path="/" element={<PaginaPrincipal />} />
                   <Route path="/productos" element={<Store />} />
+                  <Route path="success" element={<Success />} />
+            <Route path="cancel" element={<Cancel />} />
                   {/* <Route path="/aboutUs" element={<AboutUs />} /> */}
                   {/* <Route path="/equipo" element={<OurTeam />} /> */}
                   {/* <Route path="/formulario" element={<Formulario />} /> */}

@@ -13,23 +13,21 @@ function Cesta({ onHide, showModal }) {
   }, [showModal, cart]);
 
   const checkout = async () => {
-    await fetch("http://localhost:4000/checkout", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ items: cart.items }),
-    })
-      .then((response) => {
+    await fetch('http://localhost:4000/checkout', {
+        method: "POST",
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({items: cart.items})
+    }).then((response) => {
         return response.json();
-      })
-      .then((response) => {
-        if (response.url) {
-          window.location.assign(response.url);
+    }).then((response) => {
+        if(response.url) {
+            window.location.assign(response.url);
         }
-      });
-  };
-
+    });
+}
+  
   const productsCount = cart.items.reduce(
     (sum, product) => sum + product.quantity,
     0
