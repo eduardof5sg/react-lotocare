@@ -1,9 +1,12 @@
 import React from 'react'
 
-function Cancel() {
+const Cancel = () => {
   return (
-    <h1>Has cancelado tu pago con Stripe</h1>
-  )
-}
+    <div>
+      <h1>Pago Cancelado</h1>
+      {/* Otro contenido */}
+    </div>
+  );
+};
 
 export default Cancel

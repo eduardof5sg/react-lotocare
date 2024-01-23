@@ -1,10 +1,12 @@
-  import React, { useState } from "react";
+  import React, { useState, useContext, useEffect } from "react";
   import { Link } from "react-router-dom";
   import "./botonera.css";
   import Cesta from "../Shopping/Cesta";
+  import { CartContext } from "../Shopping/CartContext";
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
+    const { items } = useContext(CartContext);
 
     const handleShowCesta = () => {
       setShowCesta(true);
@@ -13,6 +15,8 @@
     const handleCloseCesta = () => {
       setShowCesta(false);
     };
+
+    const totalCartItems = items.reduce((total, item) => total + item.quantity, 0);
 
     return (
       <div className="botonera">
@@ -27,9 +31,10 @@
         </Link>
 
         <Link aria-label="Carrito de compra" onClick={handleShowCesta}>
-          <i id="navbarCarrito" className="bx bx-cart-alt"></i>
-        </Link>
-        <Cesta onHide={handleCloseCesta} showModal={showCesta} />
+        <i id="navbarCarrito" className="bx bx-cart-alt"></i>
+        {totalCartItems > 0 && <span className="cart-count">{totalCartItems}</span>}
+      </Link>
+      <Cesta onHide={handleCloseCesta} showModal={showCesta} />
       </div>
     );
   };
