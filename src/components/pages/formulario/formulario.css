@@ -1,74 +1,68 @@
-
-
-main {
-    flex: 1; 
-}
-
 body {
     background-color: #FFDDD2;
-    font-family: 'Khand', sans-serif;
-    
+    font-family: Arial, Calibri, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 20px;
 }
 
-.formularioPrincipal{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5%;
-    gap: 120px;
-    margin-left: -190px;   
-    width: auto;    
-}
-
-.formularioPrincipal label {
-    margin-left:10px;
-   
-}
-
-.formLoading {
-    width: 200px;
-    
-    
-}
-
-.formLoading h1{
-    font-size: 2rem;
-    padding-bottom: 1rem;
-    
-    
-}
-
-.form-control {
-    margin-bottom: 7px;
-    padding-bottom: 20px;
+.contenedorForms{
     position: relative;
-    background-color: #FFDDD2;
+    width: 80%;
+    left: 10%;
+    top: 5%;
+    text-align: center;
+}
+
+.form {
+    transform-style: preserve-3d;
+    transform-origin: center;
+  }
+#formLoading, #formRegistro{
+    display: block;
+    width: 80%;
+    height: 70%;
+    background-color: #f0f0f0;
+    transition: transform 1s ease;
+    border-radius: 5%;
+}
+#formRegistro{
+    display: none;
+}
+#btF1, #btF2{
+    color: navy;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .form-control label {
     display: inline-block;
     margin-bottom: 7px;
-    font:weight 200px;
 }
 
-.form-control input{
+input{
     border-top: none;
     border-left: none;
     border-right: none;
-    font-size: 12px;
-    padding: auto;
+    font-size: 20px;
     background-color: #FFDDD2;
     margin: 10px;
+    font-size: 20px;
+    width: 300px;
 }
 
-.form-control input:focus{
+input:focus{
     background-color: #FFDDD2;
     outline: none;
     
 }
 
-.form-control input::placeholder {
+input::placeholder {
     color: #FFDDD2;
     background-color: #FFDDD2
 }
@@ -76,52 +70,14 @@ body {
 .form-control p {
     visibility: hidden;
     position: absolute;
-    font-size: small;
-    font-weight: 500px;
     text-align: right;
     color: rgb(255, 0, 0);
-
 }
 
 .check input {
     margin-left: 10px;
     display: block;
-    padding: 90px;
-    
-    
 }
-
-.formCheck {
-    display: flex;
-    align-items: flex-end;
-    font-size: 13px;
-}
-
-.formCheck label {
-
-    margin-left: -3px;
-}
-
-
-.formCheck input{
-    width: 10px;
-}
-
-#formulario1 button {
-    background-color: #83C5BE;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 30px;
-    border-radius: 5px;
-    border:none;
-
-}
-
-#formulario1 button:hover {
-    background-color: #e29578;
-}
-
 
 .form-control.falla input{
     border-color: rgb(245, 10, 10);
@@ -138,130 +94,50 @@ body {
     visibility: visible;
 }
 
-.formNombre{
-    display: flex;
-    gap: 20px;
-}   
-
-.formCorreo{
+.formNombre, .formCorreo, .formPass{
     display: flex;
     gap: 20px;
 }
 
-.formPass{
-    display: flex;
-    gap: 20px;
-}
-
-.formRegistro h1 {
-    font-size: 2rem;
-    padding-bottom: 1rem;
-
-}
-
-.form2 input{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    display: block;
-    font-size: 12px;
-    padding: auto;
-    background-color: #FFDDD2;
-    width: 100%;
-    margin: 10px;
-}
-
-.form2 input:focus{
-    background-color: #FFDDD2;
-    outline: none;
-    
-}
-
-.form2 input::placeholder {
-    color: rgb(243, 181, 210); 
-    background-color: #FFDDD2; 
-}
 
 .labelCheckbox {
     margin-top: 10px;
     display: flex;
     align-items: center;
-    font-size: 13px;
 }
 
 .labelCheckbox label {
-    margin-left: -10px;
+    margin-left: 10px;
 }
 .labelCheckbox input {
     
     width: 20px;
 }
 
-.formRegistro button {
-    background-color: #83C5BE;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-top: 30px;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    border: none;
-}
-
-.formRegistro button:hover {
-    background-color: #e29578;
-}
-
-
-@media (max-width:450px){
-
-    .formularioPrincipal {
-        
-        flex-direction: column;
-        align-items: center;
-        margin-left:7vh;
-        align-items: stretch;
-    }
-
-    .formRegistro {        
-        margin-top: -90px;
-    }
-
-    .formRegistro button {
-        width: 80%;
-    }
-
-    .form2 {
-        margin-right: 60px;
-    }
-
-}
-
 .modal {
     display: none;
     position: fixed;
     z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    left: 10vw;
+    top: 10%;
+    width: 80vw;
+    height: 80vh;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
   }
   
   .modal-content {
     background-color: #FFDDD2;
-    margin: 15% auto;
-    padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: fit-content;
+    height: fit-content;
+    width: 99%;
   }
   
   .close {
-    
-    color: #aaa;
+    color: #ff0000;
     float: right;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 50%;
   }
@@ -271,13 +147,57 @@ body {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  } 
+  }
 
-h5{
-    color: #006d77;
+button{
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #83C5BE;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
 }
 
-.modal-content{
-    width: fit-content;
-    height: fit-content;
+button:hover{
+    background-color: #e29578;
+}
+
+@media (max-width:450px){
+
+    body {
+        background-color: #FFDDD2;
+        font-family: Arial, Calibri, sans-serif;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size: 12px;
+    }
+    .formularioPrincipal {
+        
+        flex-direction: column;
+        align-items: center;
+        margin-left: 7vh;
+        align-items: stretch;
+    }
+    #formulario1, #formulario2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+        align-items: center;
+    }
+    #formulario1 div, #formulario2 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .formRegistro {        
+        margin-top: 90px;
+    }
+    input{
+        margin: 5px;
+        font-size: 12px;
+        width: 200px;
+    }
 }

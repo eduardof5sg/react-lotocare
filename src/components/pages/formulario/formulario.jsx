@@ -1,41 +1,23 @@
 import React, { PureComponent, useEffect } from "react";
 import "../formulario/formulario.css";
 import Modal from "./modal.jsx";
-/*
-const MiComponente = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = './components/pages/formulario/actions.js'; 
-    script.async = true;
-    alert("PP");
-
-    // Adjuntar el script al final del cuerpo del documento
-    document.body.appendChild(script);
-
-    // Limpiar el script cuando el componente se desmonte
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []); // El array vacío asegura que este efecto solo se ejecute una vez
-}*/
-
 
 export class Formulario extends PureComponent {
   render() {
     return (
-      <div>
-        <div class="formLoading">
+      <div class="contenedorForms">
+        <div id="formLoading">
           <h1>INGRESAR</h1>
           <div class="form-control">
             <form id="formulario1" action="">
               <div>
                 <label for="correo">Correo electronico</label>
-                <input id="correo" class="claseInput" type="email" />
+                <input id="correo" class="claseInput" type="email" placeholder="Introduce tu correo" />
                 <p></p>
               </div>
               <div>
                 <label for="pass1">Contraseña</label>
-                <input id="pass1" type="password" />
+                <input id="pass1" type="password" placeholder="Tu contraseña" />
                 <p></p>
               </div>
               <div class="formCheck">
@@ -43,11 +25,12 @@ export class Formulario extends PureComponent {
                 <label for="check">Recuerdame</label>
               </div>
               <button>Iniciar Sesión</button>
+              <div>¿No tienes cuenta?. Créala <span id="btF1">aquí</span>.</div>
             </form>
           </div>
         </div>
 
-        <div class="formRegistro">
+        <div id="formRegistro">
           <h1>REGÍSTRATE</h1>
           <form class="form2" id="formulario2" action="">
             <div class="formNombre">
@@ -69,6 +52,7 @@ export class Formulario extends PureComponent {
               <input type="text" id="telefono" />
               <p></p>
             </div>
+            <div>&nbsp;<br/>&nbsp;</div>
             <div class="formCorreo">
               <div>
                 <label for="correo2">Email</label>
@@ -93,17 +77,20 @@ export class Formulario extends PureComponent {
                 <p></p>
               </div>
             </div>
+            <div class="labelCheckbox">
+              <input id="formRegistroCheckbox" type="checkbox" />
+              <label for="formRegistroCheckbox"> He leido y estoy de acuerdo con los <a href="#" id="abrirModal">terminos y condiciones</a>
+              </label>
+              <p></p>
+            </div>
+            <div>
+              <button>Registrarse</button>
+            </div>
+              <div>¿Tienes cuenta?. Identifícate <span id="btF2">aquí</span>.</div>
           </form>
-          <div class="labelCheckbox">
-            <input id="formRegistroCheckbox" type="checkbox" />
-            <label for="formRegistroCheckbox">
-              He leido y estoy de acuerdo con los <a href="#" id="abriModal2">terminos y condiciones</a>
-            </label>
-            <p></p>
-          </div>
-          <button>Registrarse</button>
+        </div>
 
-          <div id="myModal" class="modal">
+        <div id="myModal" class="modal">
             <div class="modal-content">
               <span class="close">&times;</span>
               {/* Contenido del modal (puedes agregar aquí tus términos y condiciones) */}
@@ -198,8 +185,8 @@ export class Formulario extends PureComponent {
                 </div>
               </p>
             </div>
-          </div>
-        </div>{<Modal />}
+        </div>
+        <Modal />
       </div>
     );
   }
