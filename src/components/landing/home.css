@@ -1,6 +1,7 @@
 .react-parallax {
     position: relative!important;
-    height: 120vh;/* Utiliza !important para asegurarte de que este estilo prevalezca */
+    height: 150vh;
+    
   }
   
 .fixed-text {
@@ -26,9 +27,5 @@
     font-size: 14px;
     margin: 0;
     color: aliceblue;
-}
-  
-.other-elements {
-    margin-top: 80px;
 }
   

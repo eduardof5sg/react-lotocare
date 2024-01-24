@@ -1,0 +1,21 @@
+.products-section img {
+  height: 20vh;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.categories-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none; 
+    padding: 0; 
+    margin: 0;     
+    grid-gap: 10px; 
+  }
+
+.products-section  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    
+  }
+    
