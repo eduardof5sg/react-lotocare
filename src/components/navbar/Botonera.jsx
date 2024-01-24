@@ -3,7 +3,7 @@
   import "./botonera.css";
   import Cesta from "../Shopping/Cesta";
   import ProductFilterModal from "../busqueda/busqueda";
-import { getProductData } from "../../pages/Shopping/productsStore";
+  import { getProductData } from "../../pages/Shopping/productsStore";
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
