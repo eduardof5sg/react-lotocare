@@ -12,19 +12,19 @@ export class Formulario extends PureComponent {
             <form id="formulario1" action="">
               <div>
                 <label for="correo">Correo electronico</label>
-                <input id="correo" class="claseInput" type="email" placeholder="Introduce tu correo" />
-                <p></p>
+                <input id="correo" class="claseInput" type="email" placeholder="Introduce tu correo" minLength={8} maxLength={50} required />
               </div>
               <div>
                 <label for="pass1">Contraseña</label>
-                <input id="pass1" type="password" placeholder="Tu contraseña" />
-                <p></p>
+                <input id="pass1" type="password" placeholder="Tu contraseña" minLength={8} maxLength={30} required />
               </div>
               <div class="formCheck">
-                <input type="checkbox" id="check" />
+                <input type="checkbox" id="check" required />
                 <label for="check">Recuerdame</label>
               </div>
-              <button>Iniciar Sesión</button>
+              <div>
+                <button>Iniciar Sesión</button>
+              </div>
               <div>¿No tienes cuenta?. Créala <span id="btF1">aquí</span>.</div>
             </form>
           </div>
@@ -38,50 +38,45 @@ export class Formulario extends PureComponent {
                 <label for="nombre" class="label-nombre">
                   Nombre
                 </label>
-                <input type="text" id="nombre" />
-                <p></p>
+                <input type="text" id="nombre" minLength={2} maxLength={30} placeholder="Introduce tu nombre." required />
               </div>
               <div>
                 <label for="apellidos">Apellidos</label>
-                <input type="text" name="" id="apellidos" />
-                <p></p>
+                <input type="text" name="" id="apellidos" minLength={2} maxLength={40} placeholder="Introduce tus apellidos." required />
               </div>
             </div>
             <div>
-              <label for="telefono">Telefono</label>
-              <input type="text" id="telefono" />
-              <p></p>
+              <div>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" minLength={9} maxLength={9} pattern="\d{9,9}" placeholder="Introduce tu telefono." required />
+              </div>
             </div>
-            <div>&nbsp;<br/>&nbsp;</div>
             <div class="formCorreo">
               <div>
                 <label for="correo2">Email</label>
-                <input type="email" id="correo2" />
-                <p></p>
+                <input type="email" id="correo2" minLength={8} maxLength={30} placeholder="Introduce tu correo." required />
               </div>
               <div>
                 <label for="confirmarCorreo">Confirmar Email</label>
-                <input type="email" id="confirmarCorreo" />
-                <p></p>
+                <input type="email" id="confirmarCorreo" minLength={8} maxLength={30} placeholder="Repite tu correo." required />
               </div>
             </div>
             <div class="formPass">
               <div>
                 <label for="pass2">Contraseña</label>
-                <input type="password" id="pass2" />
-                <p></p>
+                <input type="password" id="pass2" minLength={8} maxLength={30} placeholder="Introduce contraseña. Mínimo 8 caracteres." required />
               </div>
               <div>
                 <label for="confirmPass">Confirmar contraseña</label>
-                <input type="password" id="confirmPass" />
-                <p></p>
+                <input type="password" id="confirmPass" minLength={8} maxLength={30} placeholder="Repite contraseña" required />
               </div>
             </div>
             <div class="labelCheckbox">
-              <input id="formRegistroCheckbox" type="checkbox" />
+              <input id="formRegistroCheckbox" class="verificacion" type="checkbox" required />
               <label for="formRegistroCheckbox"> He leido y estoy de acuerdo con los <a href="#" id="abrirModal">terminos y condiciones</a>
               </label>
-              <p></p>
+            </div>
+            <div class="capt">
             </div>
             <div>
               <button>Registrarse</button>
