@@ -1,0 +1,20 @@
+
+.titulo {
+    margin: 5vh;
+    padding-bottom: 50px;
+    position: relative;
+    
+}
+
+.contenedor {
+    width: 10%;
+    max-height: 50vh;
+
+        
+}
+.imagenCarrusel img{
+    height: 40vh;
+    width: 35vh;
+    border-radius: 15px;
+    padding: 8px;
+}
