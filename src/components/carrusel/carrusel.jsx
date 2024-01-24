@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./carrusel.css"
+import { Link } from 'react-router-dom';
 
 const ImageCarousel = ({ data }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -30,7 +31,9 @@ const ImageCarousel = ({ data }) => {
           {categories.map((category) => (
             groupedImages[category].slice(0, 1).map((image, index) => (
               <div className='imagenCarrusel' key={`${category}_${index}`}>
-                <img src={image.img} alt={image.categoria}/>
+                <Link to={`/productoDetallado/${image.id}`} style={{ textDecoration: 'none' }}>
+                 <img src={image.img} alt={image.categoria}/>
+                </Link> 
               </div>
             ))
           ))}

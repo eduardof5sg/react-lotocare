@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Card, Button, Form, Row, Col,} from "react-bootstrap";
 import { CartContext } from "./CartContext";
+import { Link } from 'react-router-dom';
 
 function ProductCard({ product }) {
   const cart = useContext(CartContext);
@@ -8,7 +9,9 @@ function ProductCard({ product }) {
 
   return (
     <Card>
-      <Card.Img variant="top" src={product.img} alt={product.altText} />
+      <Link to={`/productoDetallado/${product.id}`} style={{ textDecoration: 'none' }}>
+       <Card.Img variant="top" src={product.img} alt={product.altText} />
+      </Link>
       <Card.Body>
 
         <Card.Title>{product.nombre}</Card.Title>
