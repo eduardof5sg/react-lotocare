@@ -41,7 +41,7 @@ import { getProductData } from "../../pages/Shopping/productsStore";
         </Link>
         <Cesta onHide={handleCloseCesta} showModal={showCesta} />
 
-        <ProductFilterModal  product={getProductData}  showModal={showModal}  onClose={handleCloseModal}      />
+        <ProductFilterModal  showModal={showModal}  onClose={handleCloseModal}      />
       </div>
     );
   };

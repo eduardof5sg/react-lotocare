@@ -8,6 +8,10 @@ import CartProvider from './components/Shopping/CartContext';
 import PaginaPrincipal from './pages/home/home';
 import Cabecera from './components/navbar/Cabecera';
 import Footer from './components/navbar/Footer'
+import AboutUs from './pages/aboutUs/about';
+import OurTeam from './pages/equipo/equipo';
+import ProductoDetallado from './pages/productoDetallado/ProductoDetallado';
+
 
 function App() {
   return (
@@ -19,13 +23,13 @@ function App() {
                   <Route path="/" element={<PaginaPrincipal />} />
                   <Route path="/productos" element={<Store />} />
                   <Route path="success" element={<Success />} />
-            <Route path="cancel" element={<Cancel />} />
-                  {/* <Route path="/aboutUs" element={<AboutUs />} /> */}
-                  {/* <Route path="/equipo" element={<OurTeam />} /> */}
+                  <Route path="cancel" element={<Cancel />} />
+                  <Route path="/aboutUs" element={<AboutUs />} /> 
+                  <Route path="/equipo" element={<OurTeam />} /> 
                   {/* <Route path="/formulario" element={<Formulario />} /> */}
                   {/* <Route path="/cesta" element={<Cesta />} /> */}
                   {/* <Route path="/perfil-usuario" element={<PerfilUsuario />} /> */}
-                  {/* <Route path="/producto-detallado" element={<ProductoDetallado />} /> */}
+                  <Route path="/productoDetallado/:id" element={<ProductoDetallado/>} /> 
                 </Routes>
                 <Footer />
           {/* </Router> */}

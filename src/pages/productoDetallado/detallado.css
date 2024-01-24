@@ -1,0 +1,21 @@
+.productoDetallado {
+    display: flex;
+    margin-top: 190px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .imagenDetallada img {
+    height: 50vh;
+    width: auto;
+  }
+  
+.botonCarrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cantidadProducto {
+    margin: 0 40px; /* Ajusta el margen según sea necesario */
+  }
