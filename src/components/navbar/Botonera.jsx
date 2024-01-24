@@ -1,13 +1,15 @@
-  import React, { useState } from "react";
+  import React, { useState, useContext, useEffect } from "react";
   import { Link } from "react-router-dom";
   import "./botonera.css";
   import Cesta from "../Shopping/Cesta";
   import ProductFilterModal from "../busqueda/busqueda";
 import { getProductData } from "../../pages/Shopping/productsStore";
+  import { CartContext } from "../Shopping/CartContext";
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
     const [showModal, setShowModal] = useState(false);
+    const { items } = useContext(CartContext);
 
     const handleShowCesta = () => {
       setShowCesta(true);
@@ -23,6 +25,8 @@ import { getProductData } from "../../pages/Shopping/productsStore";
     const handleCloseModal = () => {
       setShowModal(false);
     };
+
+    const totalCartItems = items.reduce((total, item) => total + item.quantity, 0);
 
     return (
       <div className="botonera">
@@ -40,8 +44,6 @@ import { getProductData } from "../../pages/Shopping/productsStore";
           <i id="navbarCarrito" className="bx bx-cart-alt"></i>
         </Link>
         <Cesta onHide={handleCloseCesta} showModal={showCesta} />
-
-        <ProductFilterModal  showModal={showModal}  onClose={handleCloseModal}      />
       </div>
     );
   };

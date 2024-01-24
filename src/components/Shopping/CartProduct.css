@@ -9,7 +9,7 @@
   }
   
   .product-image img {
-    max-width: 50px; /* Ajusta el tamaño máximo de la imagen según tu preferencia */
+    max-width: 50px;
     height: auto;
   }
   

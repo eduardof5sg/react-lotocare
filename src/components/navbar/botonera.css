@@ -9,13 +9,25 @@
     font-size:larger;
 }
   .botonera a{
-    padding: 10px;
+    padding: 13px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
   }
   .botonera a:hover{
-    padding: 10px;
+    padding: 13px;
     color: #30b0ff;
     text-decoration: none;
+  }
+
+  .cart-count{
+    position: absolute;
+    top: 15px;
+    left: 132px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 10px;
+    font-weight: bold;
   }

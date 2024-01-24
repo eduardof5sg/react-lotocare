@@ -26,24 +26,19 @@ export function CartProvider({ children }) {
   }
 
   function addOneToCart(id) {
-    const quantity = getProductQuantity(id);
-
-    if (quantity === 0) {
-      setCartProducts([
-        ...cartProducts,
-        {
-          id: id,
-          quantity: 1,
-        },
-      ]);
+    const updatedCartProducts = cartProducts.map((product) =>
+      product.id === id
+        ? { ...product, quantity: product.quantity + 1 }
+        : product
+    );
+  
+    const existingProduct = updatedCartProducts.find((product) => product.id === id);
+  
+    if (!existingProduct) {
+      // Si el producto no existía previamente, agrégalo con cantidad 1
+      setCartProducts([...updatedCartProducts, { id: id, quantity: 1 }]);
     } else {
-      setCartProducts(
-        cartProducts.map((product) =>
-          product.id === id
-            ? { ...product, quantity: product.quantity + 1 }
-            : product
-        )
-      );
+      setCartProducts(updatedCartProducts);
     }
   }
 
