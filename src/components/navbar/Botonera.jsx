@@ -29,7 +29,7 @@ import { getProductData } from "../../pages/Shopping/productsStore";
         <Link  aria-label="Buscar" onClick={handleIconClick}>
           <i className="bx bx-search-alt-2"></i>
         </Link>
-        <Link to="/perfil" aria-label="Mi perfil">
+        <Link to="/formulario" aria-label="Mi perfil">
           <i className="bx bx-user"></i>
         </Link>
         <Link to="/wish" aria-label="Lista de deseos">
