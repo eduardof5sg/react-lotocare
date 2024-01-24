@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import { Card, Button, Form, Row, Col,} from "react-bootstrap";
+import { useWishlist } from "../wishlist/wishlistContext";
 import { CartContext } from "./CartContext";
 
 function ProductCard({ product }) {
   const cart = useContext(CartContext);
+  const wishlist = useWishlist();
   const productQuantity = cart.getProductQuantity(product.id);
 
   return (
@@ -34,6 +36,13 @@ function ProductCard({ product }) {
                 >
                   -
                 </Button>
+                <Button
+                variant="outline-secondary"
+                onClick={() => wishlist.addToWishlist(product)}
+                className="my-2">
+                 Add to Wishlist
+                </Button>
+                
               </Col>
             </Form>
             <Button
