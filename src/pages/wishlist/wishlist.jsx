@@ -1,6 +1,7 @@
-// src/components/Wishlist.js
+// Wishlist.js
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
+import {WishlistContext} from '../../components/wishlist/wishlistContext';
 import './wishlist.css';
 
 const Wishlist = () => {
@@ -11,7 +12,7 @@ const Wishlist = () => {
 
   useEffect(() => {
     // Fetch wishlist items from your API
-    fetch('your-api-endpoint/wishlist')
+    fetch('lotocare.json')
       .then(response => response.json())
       .then(data => setWishlistItems(data))
       .catch(error => console.error('Error fetching wishlist:', error));
