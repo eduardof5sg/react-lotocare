@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Card, Button, Form, Row, Col,} from "react-bootstrap";
-import { useWishlist } from "../wishlist/wishlistContext";
+import { useWishlist } from "../wishlist/WishlistContext";
 import { CartContext } from "./CartContext";
 
 function ProductCard({ product }) {

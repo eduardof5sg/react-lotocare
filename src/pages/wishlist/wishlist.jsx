@@ -1,7 +1,7 @@
 // Wishlist.js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import Modal from 'react-modal';
-import {WishlistContext} from '../../components/wishlist/wishlistContext';
+import { WishlistContext} from '../../components/wishlist/WishlistContext';
 import './wishlist.css';
 
 const Wishlist = () => {
@@ -9,6 +9,7 @@ const Wishlist = () => {
   const [newItemName, setNewItemName] = useState('');
   const [newItemPrice, setNewItemPrice] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const {addToWishlist, removeFromWishlist, wishlist} = useContext(WishlistContext);
 
   useEffect(() => {
     // Fetch wishlist items from your API

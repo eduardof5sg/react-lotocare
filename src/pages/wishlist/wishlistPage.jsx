@@ -1,6 +1,6 @@
 // WishlistPage.js
 import React from 'react';
-import { useWishlist } from './WishlistContext'; // Updated import path
+import { useWishlist } from '../../components/wishlist/WishlistContext'; // Updated import path
 
 const WishlistPage = () => {
   const { wishlist, removeFromWishlist } = useWishlist();

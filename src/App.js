@@ -8,7 +8,7 @@ import CartProvider from "./components/Shopping/CartContext";
 import PaginaPrincipal from "./pages/home/home";
 import Cabecera from "./components/navbar/Cabecera";
 import Footer from "./components/navbar/Footer";
-import {WishlistProvider} from './components/wishlist/wishlistContext';
+import {WishlistProvider} from './components/wishlist/WishlistContext';
 import AboutUs from './pages/aboutUs/about'
 import OurTeam from "./pages/equipo/equipo";
 import wishlistPage from "./pages/wishlist/wishlistPage";

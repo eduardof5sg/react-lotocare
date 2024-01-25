@@ -3,8 +3,8 @@
   import "./botonera.css";
   import Cesta from "../Shopping/Cesta";
   import { CartContext } from "../Shopping/CartContext";
-  import { useWishlist } from '../wishlist/wishlistContext';
-  import { WishlistProvider } from "../wishlist/wishlistContext";
+  import { useWishlist } from '../wishlist/WishlistContext';
+  import { WishlistProvider } from "../wishlist/WishlistContext";
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
