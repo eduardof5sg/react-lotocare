@@ -3,6 +3,7 @@
   import "./botonera.css";
   import Cesta from "../Shopping/Cesta";
   import { CartContext } from "../Shopping/CartContext";
+import WishlistPage from "../../pages/wishlist/wishlistPage";
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
@@ -26,8 +27,9 @@
         <Link to="/perfil" aria-label="Mi perfil">
           <i className="bx bx-user"></i>
         </Link>
-        <Link to="/wish" aria-label="Lista de deseos">
-          <i className="bx bx-heart"></i>
+        <Link to="/wish" aria-label="Lista de deseos" onClick={WishlistPage}>
+          <i id="navbarWishlist" className="bx bx-heart"></i>
+          {totalWishlistItems > 0 && <span className="wish-count">{totalWishlistItems}</span>}
         </Link>
 
         <Link aria-label="Carrito de compra" onClick={handleShowCesta}>

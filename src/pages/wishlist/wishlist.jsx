@@ -1,7 +1,7 @@
 // src/components/Wishlist.js
 import React, { useState, useEffect } from 'react';
 import Modal from 'react-modal';
-import './Wishlist.css';
+import './wishlist.css';
 
 const Wishlist = () => {
   const [wishlistItems, setWishlistItems] = useState([]);

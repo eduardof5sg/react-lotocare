@@ -20,7 +20,7 @@ function ProductCard({ product }) {
           onClick={() => wishlist.addToWishlist(product)}
           className="my-2" 
           >
-           Add to Wishlist
+           <i className="bx bx-heart"></i>
         </Button>
         {productQuantity > 0 ? (
           <>
