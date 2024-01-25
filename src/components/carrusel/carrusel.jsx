@@ -26,23 +26,26 @@ const ImageCarousel = ({ data }) => {
   return (
     <div className='titulo'>
       <h2>Best Sellers</h2>
-      <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
-        <div className="contenedor" style={{ display: 'flex', transition: 'transform 0.5s', transform: `translateX(${-currentImageIndex * 100}%)` }}>
+      <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>        
+        <div className="contenedor" style={{ display: 'flex', transition: 'transform 0.5s', transform: `translateX(${-currentImageIndex * 9}%)` }}>
           {categories.map((category) => (
             groupedImages[category].slice(0, 1).map((image, index) => (
               <div className='imagenCarrusel' key={`${category}_${index}`}>
                 <Link to={`/productoDetallado/${image.id}`} style={{ textDecoration: 'none' }}>
                  <img src={image.img} alt={image.categoria}/>
                 </Link> 
-              </div>
+              </div>              
             ))
           ))}
         </div>
-        <i onClick={handlePrev} className='bx bx-chevron-left-circle bx-lg ' ></i>
-        <i onClick={handleNext} className='bx bx-chevron-right-circle bx-lg ' ></i>
+        <div className='botoneraCarrusel'>
+          <i onClick={handlePrev} className='bx bx-chevron-left-circle bx-lg ' ></i>
+          <i onClick={handleNext} className='bx bx-chevron-right-circle bx-lg ' ></i>
+        </div>
       </div>
     </div>
   );
+
 };
 
 export default ImageCarousel;

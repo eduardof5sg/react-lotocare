@@ -44,7 +44,7 @@ function ProductCard({ product }) {
               onClick={() => cart.deleteFromCart(product.id)}
               className="my-2"
             >
-              Remove from cart
+              Eliminar del carrito
             </Button>
           </>
         ) : (
@@ -52,7 +52,7 @@ function ProductCard({ product }) {
             variant="primary"
             onClick={() => cart.addOneToCart(product.id)}
           >
-            Add To Cart
+            Añadir al carrito
           </Button>
         )}
       </Card.Body>
