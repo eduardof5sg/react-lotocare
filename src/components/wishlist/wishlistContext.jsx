@@ -28,4 +28,4 @@ export const useWishlist = () => {
   return useContext(WishlistContext);
 };
 
-export default WishlistContext
+export default WishlistContext;

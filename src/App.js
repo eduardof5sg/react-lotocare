@@ -8,7 +8,7 @@ import CartProvider from "./components/Shopping/CartContext";
 import PaginaPrincipal from "./pages/home/home";
 import Cabecera from "./components/navbar/Cabecera";
 import Footer from "./components/navbar/Footer";
-import WishlistProvider from './components/wishlist/wishlistContext';
+import { WishlistProvider } from './components/wishlist/wishlistContext';
 import AboutUs from './pages/aboutUs/about'
 import OurTeam from "./pages/equipo/equipo";
 
@@ -19,6 +19,7 @@ function App() {
       <BrowserRouter>
         {/* <Router> */}
         <Cabecera />
+        <WishlistProvider>
         <Routes>
           <Route path="/" element={<PaginaPrincipal />} />
           <Route path="/productos" element={<Store />} />
@@ -27,11 +28,8 @@ function App() {
           <Route path="/wishlist" element={<WishlistProvider/ >} />
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/equipo" element={<OurTeam />} />
-          {/* <Route path="/formulario" element={<Formulario />} /> */}
-          {/* <Route path="/cesta" element={<Cesta />} /> */}
-          {/* <Route path="/perfil-usuario" element={<PerfilUsuario />} /> */}
-          {/* <Route path="/producto-detallado" element={<ProductoDetallado />} /> */}
         </Routes>
+        </WishlistProvider>
         <Footer />
         {/* </Router> */}
       </BrowserRouter>
