@@ -8,14 +8,17 @@ import './equipo.css';
 
 const OurTeam = () => {
   const teamMembers = [
-    { id: 1, name: 'Eduardo', role: 'Product Owner, Developer', image: teamMember1, description: 'Introducing Eduardo, the creative mind behind our natural skincare and makeup line. With a deep commitment to purity and quality, Eduardo has carefully crafted each product to enhance your beauty naturally. Immerse yourself in the essence of authentic beauty with Eduardos thoughtful creations.' },
-    { id: 2, name: 'Luis Ángel', role: 'Developer', image: teamMember2, description: 'Unveiling Luis, the brilliant mind behind the seamless functionality of our products. With a passion for innovation, Luis has played a key role in crafting a user experience that goes beyond expectation. Explore the synergy of design and functionality, meticulously brought to you by Luis. Elevate your experience with our products, where technology meets intuition.' },
-    { id: 3, name: 'Alejo', role: 'Developer', image: teamMember3, description: 'Meet Alejo, the coding maestro shaping the technological backbone of our products. With an innate knack for problem-solving, Alejo has intricately woven functionality into every aspect. Experience the seamless and efficient results of Alejos coding expertise, enhancing your interaction with our products. ' },
-    { id: 4, name: 'Almudena', role: 'Scrum Master, Developer', image: teamMember4, description: 'Introducing Almudena, our Scrum Master orchestrating the harmonious development of our products. With a keen eye for organization and a dedication to agile methodologies, Almudena ensures each team members efforts align seamlessly. Embrace the spirit of teamwork and progress under Almudenas expert guidance.' },
+    { id: 1, name: 'Eduardo', role: 'Product Owner, Developer', image: teamMember1, description: 'Presentamos a Eduardo, la mente creativa detrás de nuestra línea de cuidado de la piel y maquillaje natural. Con un compromiso profundo con la pureza y la calidad, Eduardo ha diseñado cuidadosamente cada producto para realzar tu belleza de forma natural. Sumérgete en la esencia de la auténtica belleza con las cuidadas creaciones de Eduardo.' },
+    { id: 2, name: 'Luis Ángel', role: 'Developer', image: teamMember2, description: 'Presentamos a Luis, la brillante mente detrás de la funcionalidad perfecta de nuestros productos. Con una pasión por la innovación, Luis ha desempeñado un papel fundamental en crear una experiencia del usuario que va más allá de las expectativas. Explora la sinergia entre el diseño y la funcionalidad, meticulosamente traída a ti por Luis. Eleva tu experiencia con nuestros productos, donde la tecnología se encuentra con la intuición.' },
+    { id: 3, name: 'Alejo', role: 'Developer', image: teamMember3, description: 'Conoce a Alejo, el maestro del código que da forma a la columna vertebral tecnológica de nuestros productos. Con un talento innato para resolver problemas, Alejo ha tejido intrincadamente la funcionalidad en cada aspecto. Experimenta los resultados fluidos y eficientes de la experiencia en codificación de Alejo, mejorando tu interacción con nuestros productos.' },
+    { id: 4, name: 'Almudena', role: 'Scrum Master, Developer', image: teamMember4, description: 'Te presentamos a Almudena, nuestra Scrum Master que orquesta el desarrollo harmonioso de nuestros productos. Con una aguda visión para la organización y una dedicación a las metodologías ágiles, Almudena se asegura de que los esfuerzos de cada miembro del equipo se alineen de manera fluida. Acepta el espíritu de trabajo en equipo y progreso bajo la experta guía de Almudena.' },
   ];
 
   return (
     <div className="our-team">
+      <div className='section-head'>
+      <h2>El equipo de Loto Care</h2>
+      </div>
       <div className="diamond-row">
         <div className="team-card single-card">
           <div className='card-first'>

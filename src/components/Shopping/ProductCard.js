@@ -15,6 +15,13 @@ function ProductCard({ product }) {
 
         <Card.Title>{product.nombre}</Card.Title>
         <Card.Text>€{product.precio}</Card.Text>
+        <Button
+          variant="outline-secondary"
+          onClick={() => wishlist.addToWishlist(product)}
+          className="my-2" 
+          >
+           Add to Wishlist
+        </Button>
         {productQuantity > 0 ? (
           <>
             <Form as={Row}>
@@ -36,12 +43,6 @@ function ProductCard({ product }) {
                 >
                   -
                 </Button>
-                <Button
-                variant="outline-secondary"
-                onClick={() => wishlist.addToWishlist(product)}
-                className="my-2">
-                 Add to Wishlist
-                </Button>
                 
               </Col>
             </Form>
@@ -59,8 +60,8 @@ function ProductCard({ product }) {
             onClick={() => cart.addOneToCart(product.id)}
           >
             Add To Cart
-          </Button>
-        )}
+          </Button> )
+        }
       </Card.Body>
     </Card>
   );
