@@ -27,7 +27,7 @@
     };
 
     const handleWishlistIconClick = () => {
-      
+     
       setShowWishlistModal(true);
     };
 
@@ -46,14 +46,14 @@
         <Link aria-label="Lista de deseos" onClick={handleWishlistIconClick}>
         {/* Mantén el ícono de la lista de deseos aquí */}
         <i className="bx bx-heart"></i>
-      </Link>
+       </Link>
         <Link aria-label="Carrito de compra" onClick={handleShowCesta}>
           <i id="navbarCarrito" className="bx bx-cart-alt"></i>
         </Link>
         <Cesta onHide={handleCloseCesta} showModal={showCesta} />
 
         <ProductFilterModal  showModal={showModal}  onClose={handleCloseModal}      />
-        <WishlistModal showModal={showWishlistModal} closeModal={handleCloseWishlistModal} />
+        <WishlistModal  showModal={showWishlistModal} closeModal={handleCloseWishlistModal} />
       </div>
     );
   };
