@@ -8,10 +8,10 @@ import CartProvider from "./components/Shopping/CartContext";
 import PaginaPrincipal from "./pages/home/home";
 import Cabecera from "./components/navbar/Cabecera";
 import Footer from "./components/navbar/Footer";
-import {WishlistProvider} from './components/wishlist/WishlistContext';
+import {WishlistProvider} from './components/Favoritos/WishlistContext';
 import AboutUs from './pages/aboutUs/about'
 import OurTeam from "./pages/equipo/equipo";
-import wishlistPage from "./pages/wishlist/wishlistPage";
+import wishlistPage from "./pages/Favoritos/wishlistPage";
 
 
 function App() {
