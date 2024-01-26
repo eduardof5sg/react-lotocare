@@ -3,11 +3,13 @@
   import "./botonera.css";
   import Cesta from "../Shopping/Cesta";
   import ProductFilterModal from "../busqueda/busqueda";
-  import { getProductData } from "../../pages/Shopping/productsStore";
+  import WishlistModal from "../wishlist/modalWhishlist";
+  
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
     const [showModal, setShowModal] = useState(false);
+    const [showWishlistModal, setShowWishlistModal] = useState(false);
 
     const handleShowCesta = () => {
       setShowCesta(true);
@@ -24,6 +26,15 @@
       setShowModal(false);
     };
 
+    const handleWishlistIconClick = () => {
+      
+      setShowWishlistModal(true);
+    };
+
+    const handleCloseWishlistModal = () => {
+      setShowWishlistModal(false);
+    };
+
     return (
       <div className="botonera">
         <Link  aria-label="Buscar" onClick={handleIconClick}>
@@ -32,16 +43,17 @@
         <Link to="/formulario" aria-label="Mi perfil">
           <i className="bx bx-user"></i>
         </Link>
-        <Link to="/wish" aria-label="Lista de deseos">
-          <i className="bx bx-heart"></i>
-        </Link>
-
+        <Link aria-label="Lista de deseos" onClick={handleWishlistIconClick}>
+        {/* Mantén el ícono de la lista de deseos aquí */}
+        <i className="bx bx-heart"></i>
+      </Link>
         <Link aria-label="Carrito de compra" onClick={handleShowCesta}>
           <i id="navbarCarrito" className="bx bx-cart-alt"></i>
         </Link>
         <Cesta onHide={handleCloseCesta} showModal={showCesta} />
 
         <ProductFilterModal  showModal={showModal}  onClose={handleCloseModal}      />
+        <WishlistModal showModal={showWishlistModal} closeModal={handleCloseWishlistModal} />
       </div>
     );
   };
