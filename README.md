@@ -1,9 +1,6 @@
 ![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
-![GitHub](https://github.com/eduardof5sg/react-lotocare) 
-
-**[Visita el Sitio Desplegado]()** ![image]({[BadgeURLHere](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
-)})
+**[Visita el Sitio Desplegado]()** ![image]({[https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white]})
 
 Welcome to LotoCare, your go-to destination for natural skincare and makeup products. Based in Madrid, our mission is to provide you with high-quality, eco-friendly beauty solutions that enhance your natural beauty.
 
@@ -53,17 +50,14 @@ Meet the faces behind LotoCare. Our diverse team is dedicated to bringing you ef
 Your natural beauty journey begins here! :blossom:	:star2:	:massage_woman:	
 
 
-
+:white_flower://///:white_flower://///:white_flower://///:white_flower://///:white_flower:
 
 
 ![Frame 25](https://github.com/eduardof5sg/react-lotocare/assets/149384086/46149a22-6b9e-4195-aa2c-24ff6c656ca3)
 
-![GitHub]() 
-[![Netlify Status]()]()
+**[Visita el Sitio Desplegado]()** ![image]({[https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white]})
 
-**[Visita el Sitio Desplegado]()**
-
-Bienvenido a LotoCare, tu destino principal para productos naturales de cuidado de la piel y maquillaje. Con sede en Madrid, nuestra misión es proporcionarte soluciones de belleza ecológicas de alta calidad que realzan tu belleza natural.
+Bienvenid@ a LotoCare, tu destino principal para productos naturales de cuidado de la piel y maquillaje. Con sede en Madrid, nuestra misión es proporcionarte soluciones de belleza ecológicas de alta calidad que realzan tu belleza natural.
 
 ## Sobre Nosotros :seedling: :herb:	
 
