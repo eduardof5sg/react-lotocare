@@ -1,10 +1,10 @@
-  import React, { useState, useContext } from "react";
+  import React, { useState, useContext, useEffect } from "react";
   import { Link } from "react-router-dom";
   import "./botonera.css";
   import Cesta from "../Shopping/Cesta";
   import { CartContext } from "../Shopping/CartContext";
+  import { WishlistContext } from "./Favoritos/WishlistContext";
   import WishlistPage from "../Favoritos/WishlistPage"
-  import { WishlistContext } from "../Favoritos/WishlistContext";
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
