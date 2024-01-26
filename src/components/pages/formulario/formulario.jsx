@@ -23,17 +23,17 @@ function Formulario() {
     const correo2 = document.getElementById('correo2').value;
     const password = document.getElementById('password').value;
     const password2 = document.getElementById('password2').value;
-    const formRegistroCheckbox = document.getElementById('formRegistroCheckbox').value;
+    const formRegistroCheckbox = document.getElementById('formRegistroCheckbox');
     
-    if (!nombre || !nombre.match(/^[A-Za-z]+$/)) {
+    if (!nombre || !nombre.match(/^[A-Za-z]+$/) || nombre.length < 2 || nombre.length > 30) {
       alert('Por favor, ingresa un nombre válido.');
       return;
     }
-    if (!apellidos || !apellidos.match(/^[A-Za-z]+$/)) {
+    if (!apellidos || !apellidos.match(/^[A-Za-z]+$/) || apellidos.length < 2 || apellidos.length > 30) {
       alert('Por favor, ingresa apellidos válidos.');
       return;
     }
-    if (!telefono) {
+    if (!telefono || telefono.length !== 9) {
       alert('Por favor, ingresa un teléfono válido.');
       return;
     }
@@ -50,12 +50,12 @@ function Formulario() {
       return;
     }
     console.log(password.required);
-    if (!password || !password.required==false) {
-      alert('Por favor, ingresa una contraseña.');
+    if (!password || password.length < 8 || password.length > 30) {
+      alert('Por favor, ingresa una contraseña válida. Mínimo 8 caracteres.');
       return;
     }
     console.log(password2.required);
-    if (!password2 || !password2.required==false) {
+    if (!password2 || password2.length < 8 || password2.length > 30) {
       alert('Por favor, ingresa una contraseña igual a la primera.');
       return;
     }
@@ -63,11 +63,12 @@ function Formulario() {
       alert('Los dos campos de contraseña tienen que ser iguales.');
       return;
     }
-    console.log(formRegistroCheckbox)
-    if (!formRegistroCheckbox || !formRegistroCheckbox.required==false) {
+    console.log(formRegistroCheckbox);
+    if (!formRegistroCheckbox.checked) {
       alert('Por favor, confirma que estás de acuerdo con nuestras condiciones.');
       return;
     }
+    
 
     // Validar si reCAPTCHA se ha completado
     if (!recaptchaValue) {
