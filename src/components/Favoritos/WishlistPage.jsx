@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
-// import { WishlistContext } from "./WishlistContext";
+import { WishlistContext } from "./WishlistContext";
 import WishlistItems from "./WishlistItems";
-import { Button, Modal, ModalTitle } from "react-bootstrap";
+import { Modal, Button} from "react-bootstrap";
 
 function WishlistPage({ onHide, showModal })  {
     const page = useContext(WishlistContext);
@@ -28,20 +28,18 @@ function WishlistPage({ onHide, showModal })  {
         });
 }
 
-    const productsCount = wishlistItems.items.reduce(
-        (sum, product) => sum + product.quantity,
-        0
-      );
+    // const productsCount = WishlistItems.items.reduce(
+    //     (sum, product) => sum + product.quantity,
+    //     0
+    //   );
 
 
     return (
         <Modal show={show} inHide={onHide}>
             <Modal.Header closeButton>
-                <Modal.Title>Favoritos</Modal.Title>
+                <Modal.Title>Tus favoritos</Modal.Title>
             </Modal.Header>
-            <Modal.body>
-                {productsCount > 0 ? (
-                    <>
+            <Modal.Body>
                     <p>Items en favoritos</p>
                     {WishlistItems.items.map((currentProduct, idx) => (
                         <WishlistItems
@@ -49,12 +47,13 @@ function WishlistPage({ onHide, showModal })  {
                         id={currentProduct.quantity}
                         ></WishlistItems>
                     ))}
-
-                    </>
-                ) : (
-                    <h1>No tienes favoritos actualomente</h1>
-                )}
-            </Modal.body>
+                 : (
+                    <h1>No tienes favoritos actualmente</h1>
+                    <Button variant="success" onClick={favoritos}>
+                     Ve a tu lista
+                    </Button>
+                )
+            </Modal.Body>
         </Modal>
     );   
 }
