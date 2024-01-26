@@ -8,6 +8,7 @@ const AddToFavoritesButton = ({ product }) => {
   const addToFavorites = () => {
     if (product && product.id) {
       addToWishList(product.id);
+      console.log(addToWishList);
       console.log("Añadido a Favoritos:", product.nombre, product.img); 
     } else {
       console.error("No se pudo agregar a Favoritos: producto indefinido o sin ID");
