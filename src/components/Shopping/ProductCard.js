@@ -2,10 +2,12 @@ import React, { useContext } from "react";
 import { Card, Button, Form, Row, Col,} from "react-bootstrap";
 import { CartContext } from "./CartContext";
 import { Link } from 'react-router-dom';
+import AddToFavoritesButton from "../../components/wishlist/wishlist"
 
 function ProductCard({ product }) {
   const cart = useContext(CartContext);
   const productQuantity = cart.getProductQuantity(product.id);
+  
 
   return (
     <Card>
@@ -16,6 +18,7 @@ function ProductCard({ product }) {
 
         <Card.Title>{product.nombre}</Card.Title>
         <Card.Text>€{product.precio}</Card.Text>
+        <AddToFavoritesButton product={product} />
         {productQuantity > 0 ? (
           <>
             <Form as={Row}>
@@ -44,7 +47,7 @@ function ProductCard({ product }) {
               onClick={() => cart.deleteFromCart(product.id)}
               className="my-2"
             >
-              Remove from cart
+              Eliminar del carrito
             </Button>
           </>
         ) : (
@@ -52,7 +55,7 @@ function ProductCard({ product }) {
             variant="primary"
             onClick={() => cart.addOneToCart(product.id)}
           >
-            Add To Cart
+            Añadir al carrito
           </Button>
         )}
       </Card.Body>

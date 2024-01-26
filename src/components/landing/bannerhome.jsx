@@ -22,9 +22,8 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
         <Parallax bgImage={bannerImage} strength={500}>
-          <div className={fixedText ? 'fixed-text' : ''}>
-            
-            <div>
+          <div className={fixedText ? 'fixed-text' : ''}>            
+            <div className='logoBanner'>
               <h1>LotoCare</h1>
               <p>La Esencia de la Naturaleza enn tu Piel</p>
             </div>

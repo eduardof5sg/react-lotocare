@@ -31,9 +31,9 @@ const ProductoDetallado = () => {
       <div className='imagenDetallada'>
         <img src={product.img} alt={product.nombre} />
       </div>
-      <div>
+      <div className='infoProducto'>
         <h2>{product.nombre}</h2>
-        <p>Precio: €{product.precio}</p>
+        <p className='precio'>Precio: €{product.precio}</p>
         {cart.getProductQuantity(product.id) > 0 ? (
           <div className='botonCarrito'>
             <div>
@@ -58,7 +58,9 @@ const ProductoDetallado = () => {
             Añadir al carrito
           </Button>
         )}
+        <p className='infoProducto'>"{product.info}"</p>
       </div>
+
     </div>
   );
 };

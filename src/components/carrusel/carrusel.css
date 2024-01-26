@@ -1,20 +1,27 @@
 
 .titulo {
-    margin: 5vh;
-    padding-bottom: 50px;
-    position: relative;
-    
+    margin: 5vh; 
 }
-
 .contenedor {
-    width: 10%;
+    width: 20%;
     max-height: 50vh;
-
         
 }
 .imagenCarrusel img{
-    height: 40vh;
-    width: 35vh;
+    height: 30vh;
+    width: 32vh;
     border-radius: 15px;
     padding: 8px;
 }
+
+.botoneraCarrusel {
+    margin-left: 50%;
+    
+}
+.botoneraCarrusel i {
+    margin-right: 20px; 
+    
+  }
+  .botoneraCarrusel i:last-child {
+    margin-left: 20px;
+  }

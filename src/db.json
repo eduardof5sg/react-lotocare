@@ -1,247 +1,283 @@
 [
  {
   "id": "price_1OZrXOHpcUDiH65mfSBVvq2k",
-  "nombre": "crema",
+  "nombre": "Pack crema reparadora de noche ",
   "img": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 20
+  "precio": 20,
+  "info": "Este pack exclusivo de cuidado nocturno combina la Crema Renovadora de Noche con el poder regenerador de nuestro Sérum Nocturno. Mientras la crema trabaja arduamente para revitalizar tu piel con ácido hialurónico y extracto de rosa mosqueta"
+   
  },
  {
   "id": "price_1OZrY4HpcUDiH65mmirJJeCi",
-  "nombre": "crema",
+  "nombre": "Crema Protectora Antioxidante",
   "img": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 20
+  "precio": 20,
+  "info": "Escudo antioxidante para tu piel. Nuestra Crema Protectora Antioxidante combina vitaminas C y E con extracto de té verde para combatir los radicales libres, dejando tu piel protegida, radiante y lista para enfrentar el día."
  },
  {
   "id": "price_1OZrYOHpcUDiH65moIOoM3xM",
-  "nombre": "crema",
+  "nombre": "Crema Hidratante Vitalidad Marina",
   "img": "https://images.unsplash.com/photo-1556227834-09f1de7a7d14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 20
+  "precio": 20,
+  "info": " Sumérgete en la frescura del océano con nuestra Crema Hidratante Vitalidad Marina. Infundida con minerales marinos y esencia de algas, esta crema hidrata profundamente, revitalizando tu piel y proporcionando una sensación rejuvenecedora."
  },
  {
   "id": "price_1OZrYbHpcUDiH65mRM2YEqE7",
-  "nombre": "crema",
+  "nombre": "Crema Reparadora de Manos y Uñas:",
   "img": "https://images.unsplash.com/photo-1620917670397-dc7bc45eeda8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 20
+  "precio": 20,
+  "info": "Nutre tus manos y embellece tus uñas con nuestra Crema Reparadora de Manos y Uñas. La fórmula enriquecida con manteca de karité y aceite de argán restaura la suavidad de tus manos mientras fortalece y acondiciona tus uñas."
  },
  {
   "id": "price_1OZrYuHpcUDiH65miTkrfPDk",
-  "nombre": "antiacne",
+  "nombre": "Tratamiento Antiacné Purificante",
   "img": "https://images.unsplash.com/photo-1601049541067-adaf79e7408e?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 15
+  "precio": 15,
+  "info": " Despídete de los granos con nuestro Tratamiento Antiacné Purificante. Formulado con ácido salicílico y extracto de té verde, esta poderosa fórmula combate las imperfecciones, reduce el exceso de grasa y deja tu piel con una sensación fresca y purificada."
  },
  {
   "id": "price_1OZrZ7HpcUDiH65mDUchUL1b",
-  "nombre": "antiacne",
+  "nombre": "Serum Nocturno Antiimperfecciones",
   "img": "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 15
+  "precio": 15,
+  "info": "Suero Nocturno Antiimperfecciones. Infundido con poderosos ingredientes como aloe vera, niacinamida y ácido hialurónico, este suero ligero trabaja mientras duermes para calmar las irritaciones, reducir las imperfecciones y promover una tez más clara y uniforme al despertar."
  },
  {
   "id": "price_1OZrZSHpcUDiH65mvqQY2LDF",
-  "nombre": "ojeras",
+  "nombre": "Crema Iluminadora Antiojeras",
   "img": "https://images.unsplash.com/photo-1615396899839-c99c121888b0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 15
+  "precio": 15,
+  "info": "Despierta tu mirada con nuestra Crema Iluminadora Antiojeras. Enriquecida con extracto de pepino y vitamina K, esta crema ligera reduce las ojeras, hidrata la piel delicada alrededor de los ojos y deja un brillo radiante. Logra una mirada fresca y revitalizada en cada aplicación."
  },
  {
   "id": "price_1OZrZhHpcUDiH65mIRJrlIWh",
-  "nombre": "ojeras",
+  "nombre": "Suero Revitalizante Antiojeras",
   "img": "https://plus.unsplash.com/premium_photo-1678377959909-3542d8096fa5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 15
+  "precio": 15,
+  "info": "Experimenta una transformación total en la zona de tus ojos con nuestro Suero Revitalizante Antiojeras. Infundido con péptidos, ácido hialurónico y extracto de té verde, este suero ligero y de rápida absorción trabaja para reducir las ojeras."
  },
  {
   "id": "price_1OZra3HpcUDiH65mUPTF0Sji",
-  "nombre": "hidratante",
+  "nombre": "Elixir de Hidratación Aurora",
   "img": "https://images.unsplash.com/photo-1601049505392-eebe867c4329?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 20
+  "precio": 20,
+  "info": "Embárcate en un viaje de hidratación mágica con nuestro Elixir de Hidratación Aurora. Con una fusión de extracto de loto y aceite de camelia, esta crema única no solo hidrata profundamente, sino que también ilumina tu piel como el resplandor de una aurora boreal. Descubre el encanto de una piel luminosa y revitalizada."
  },
  {
   "id": "price_1OZraEHpcUDiH65mvddp0A4K",
-  "nombre": "hidratante",
+  "nombre": "Crema Oasis de Juventud",
   "img": "https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "skincare",
-  "precio": 20
+  "precio": 20,
+  "info": "Sumérgete en la frescura de nuestra Crema Oasis de Juventud. Infundida con agua de coco y aguacate, esta crema lujosa proporciona una hidratación intensa, como un oasis para tu piel. Experimenta la renovación y la vitalidad con cada aplicación, para una piel que resplandece con juventud"
  },
  {
   "id": "price_1OZraRHpcUDiH65mFfROKLry",
-  "nombre": "gloss",
+  "nombre": "Brillo Labial Esencia de Rosas",
   "img": "https://images.pexels.com/photos\/3373744\/pexels-photo-3373744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "categoria": "labial",
-  "precio": 10
+  "precio": 10,
+  "info": ": Sumérgete en un toque de glamour con nuestro Brillo Labial Esencia de Rosas. Esta fórmula ultra brillante y no pegajosa está enriquecida con aceite de jojoba y extracto de rosas"
  },
  {
   "id": "price_1OZrajHpcUDiH65mDYAMKh1W",
-  "nombre": "gloss",
+  "nombre": "Gloss Luminoso de Frambuesa Silk",
   "img": "https://images.pexels.com/photos\/3373746\/pexels-photo-3373746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "categoria": "labial",
-  "precio": 10
+  "precio": 10,
+  "info": " Descubre la seducción en cada sonrisa con nuestro Gloss Luminoso de Frambuesa Silk. La textura sedosa y la intensidad de color se combinan con el delicioso aroma de frambuesa para una experiencia sensorial única. este gloss no solo brilla, sino que también cuida tus labios con cada aplicación."
  },
  {
   "id": "price_1OZrb7HpcUDiH65mbPRFs3LM",
-  "nombre": "matte",
+  "nombre": "Labial Mate Velvet Rougematte",
   "img": "https://images.pexels.com/photos/850801/pexels-photo-850801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "categoria": "labial",
-  "precio": 10
+  "precio": 10,
+  "info": "Experimenta la sofisticación audaz con nuestro Labial Mate Velvet Rouge. La fórmula de alta pigmentación se desliza suavemente para lograr un acabado mate impecable. Infundido con manteca de karité y vitamina E, este labial no solo ofrece un color vibrante y duradero, sino que también nutre tus labios para una sensación aterciopelada irresistible."
  },
  {
   "id": "price_1OZrbTHpcUDiH65mknYhjtor",
-  "nombre": "matte",
+  "nombre": "Labial Mate Silk Seduction",
   "img": "https://images.unsplash.com/photo-1626895872564-b691b6877b83?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "labial",
-  "precio": 10
+  "precio": 10,
+  "info": " Experimenta la sofisticación audaz con nuestro Labial Mate Silk Seduction.. Esta fórmula avanzada proporciona un acabado mate sedoso que perdura durante horas. Infundido con aceite de argán para una hidratación sin esfuerzo, este labial redefine la experiencia mate con colores audaces y una aplicación suave. Despierta tu lado más audaz y deslumbra con cada tono, experimentando la magia del atardecer en tus labios."
  },
  {
   "id": "price_1OZrboHpcUDiH65mZJda1hrQ",
-  "nombre": "líquido",
+  "nombre": "Precisión Infinita Eyeliner",
   "img": "https://plus.unsplash.com/premium_photo-1661768065574-c2a463343342?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "eyeliner",
-  "precio": 8
+  "precio": 8,
+  "info": "Define tu mirada con nuestro Precisión Infinita Eyeliner. Su punta ultrafina permite trazos precisos, mientras que la fórmula de secado rápido garantiza una aplicación suave y duradera. Logra líneas definidas y un look impecable que resistirá todo el día."
  },
  {
   "id": "price_1OZrc0HpcUDiH65mBsU5ijNl",
-  "nombre": "líquido",
+  "nombre": "Eyeliner Líquido Eclipsia",
   "img": "https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "eyeliner",
-  "precio": 8
+  "precio": 8,
+  "info": "Desata la intensidad con nuestro Eyeliner Líquido Eclipsia. Su fórmula de alta pigmentación se desliza suavemente, creando líneas impactantes con un color negro profundo. La punta de pincel flexible permite desde trazos delgados hasta dramáticos, asegurando un delineado perfecto en cada aplicación."
  },
  {
   "id": "price_1OZrcJHpcUDiH65mOxdCCE0v",
-  "nombre": "líquido",
+  "nombre": "Luna Brillante Eyeliner Metálico",
   "img": "https://images.unsplash.com/photo-1620804587331-effc68d47d7e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "eyeliner",
-  "precio": 8
+  "precio": 8,
+  "info": "Atrévete con nuestro Luna Brillante Eyeliner Metálico. Esta joya líquida proporciona un toque de glamour con un acabado metálico deslumbrante. Su aplicación fácil y de secado rápido te permite añadir un toque de destello a tus ojos, creando looks impactantes que robarán miradas."
  },
  {
   "id": "price_1OZrccHpcUDiH65m9gOktko2",
-  "nombre": "paleta",
+  "nombre": "Paleta Bosque Encantado",
   "img": "https://images.pexels.com/photos/912950/pexels-photo-912950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "categoria": "eyeshadow",
-  "precio": 207
+  "precio": 20,
+  "info": "Sumérgete en la magia de nuestra Paleta Bosque Encantado. Con tonos inspirados en la naturaleza, esta paleta te transporta a un mundo de misterio y encanto. Desde verdes profundos hasta tonos tierra, crea looks cautivadores con sombras de alta calidad que te envuelven en la atmósfera mágica del bosque."
  },
  {
   "id": "price_1OZrd5HpcUDiH65mlwYQJAmF",
-  "nombre": "paleta",
+  "nombre": "Paleta Visiones Urbanas",
   "img": "https://images.pexels.com/photos/1340925/pexels-photo-1340925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "categoria": "eyeshadow",
-  "precio": 20
+  "precio": 20,
+  "info": "Descubre la vibrante energía de la ciudad con nuestra Paleta Visiones Urbanas. Desde los tonos eléctricos hasta los neutros urbanos, esta paleta ofrece una gama versátil para crear looks que se adapten a cualquier estado de ánimo o estilo. Las sombras de larga duración te llevan desde la oficina hasta la noche con estilo."
  },
  {
   "id": "price_1OZrdGHpcUDiH65mfl300SdZ",
-  "nombre": "paleta",
+  "nombre": "Paleta Esencia de la Tierra",
   "img": "https://images.pexels.com/photos/6662437/pexels-photo-6662437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   "categoria": "eyeshadow",
-  "precio": 20
+  "precio": 20,
+  "info": "Explora la riqueza de la naturaleza con nuestra Paleta Esencia de la Tierra. Esta colección de sombras captura la diversidad de tonos terrosos, desde los cálidos marrones hasta los sutiles tonos arcilla. Cada sombra, enriquecida con ingredientes naturales, permite crear looks que reflejan la serenidad y la vitalidad de la madre tierra."
  },
  {
   "id": "price_1OZrdUHpcUDiH65mkI44rDSa",
-  "nombre": "longlast",
+  "nombre": "Máscara LongLuxe Definición Infinita",
   "img": "https://plus.unsplash.com\/premium_photo-1678377960130-bb70ffeb1cd8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "mascara",
-  "precio": 10
+  "precio": 10,
+  "info": "Despierta tus pestañas con nuestra Máscara LongLuxe Definición Infinita. Esta fórmula avanzada no solo proporciona longitud espectacular, sino que también define cada pestaña para un efecto dramático. Su resistencia al agua garantiza un look impecable durante todo el día."
  },
  {
   "id": "price_1OZrdjHpcUDiH65muC4EVOmj",
-  "nombre": "longlast",
+  "nombre": "Máscara UltraLarga Resistencia 24 Horas",
   "img": "https://images.unsplash.com/photo-1597225244660-1cd128c64284?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "mascara",
-  "precio": 10
+  "precio": 10,
+  "info": "Vive la experiencia de pestañas ultra largas con nuestra Máscara UltraLarga Resistencia 24 Horas. La fórmula de larga duración asegura un impacto duradero, mientras que su cepillo único define y separa cada pestaña. Disfruta de unas pestañas espectaculares que resisten todo, desde la mañana hasta la noche."
  },
  {
   "id": "price_1OZre3HpcUDiH65mStKLw9F5",
-  "nombre": "blush",
+  "nombre": "Rubor Dulce Melocotón",
   "img": "https://images.unsplash.com\/photo-1560130055-e3306e04884b?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "colorete",
-  "precio": 8
+  "precio": 8,
+  "info": " Ilumina tus mejillas con nuestro Rubor Dulce Melocotón. Esta fórmula sedosa y altamente pigmentada agrega un toque de calidez y frescura a tu rostro. Con una textura suave como la piel de un melocotón, este colorete proporciona un brillo saludable que resalta tu belleza natural."
  },
  {
   "id": "price_1OZreKHpcUDiH65mdIAAlnsh",
-  "nombre": "blush",
+  "nombre": "Blush Místico Nectarín",
   "img": "https://plus.unsplash.com\/premium_photo-1676818430931-b822bcc41dd7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "colorete",
-  "precio": 8
+  "precio": 8,
+  "info": "Descubre la magia en tus mejillas con nuestro Blush Místico Nectarín. Este colorete encantador combina tonos naranjas y melocotón para un toque de calidez que ilumina tu tez. Su textura suave y modulable permite lograr desde un toque sutil hasta un rubor más intenso, adaptándose a cualquier ocasión. "
  },
  {
   "id": "price_1OZreoHpcUDiH65m9lTHDqqY",
-  "nombre": "blush",
+  "nombre": "Colorete Radiante Rosa Primavera",
   "img": "https://plus.unsplash.com\/premium_photo-1677087454529-ba70fefe7d57?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "colorete",
-  "precio": 8
+  "precio": 8,
+  "info": "Da vida a tu maquillaje con nuestro Colorete Radiante Rosa Primavera. Los tonos rosados vibrantes de esta paleta ofrecen un toque fresco y juvenil a tus mejillas. Su fórmula de larga duración se mezcla sin esfuerzo, proporcionando un resplandor radiante que te acompaña todo el día."
  },
  {
   "id": "price_1OZrfEHpcUDiH65m5cvsOcr0",
-  "nombre": "tan",
+  "nombre": "Bronceador Tropical Radiante",
   "img": "https://plus.unsplash.com\/premium_photo-1697898008971-a45f218faf15?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "bronceador",
-  "precio": 15
+  "precio": 15,
+  "info": "Sumérgete en la calidez del trópico con nuestro Bronceador Tropical Radiante. Sus tonalidades bronceadas y toques sutiles de luminosidad te transportarán a playas exóticas. La fórmula liviana y fácil de difuminar garantiza un bronceado impecable y un resplandor saludable."
  },
  {
   "id": "price_1OZrfTHpcUDiH65mMyBebjGe",
-  "nombre": "tan",
+  "nombre": "Bronceador Dorado Solar",
   "img": "https://images.unsplash.com\/photo-1531646317777-0619c7c5d1d3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "bronceador",
-  "precio": 15
+  "precio": 15,
+  "info": "Logra un resplandor veraniego con nuestro Bronceador Dorado Solar. Esta fórmula sedosa se desliza suavemente, proporcionando un bronceado natural y radiante. Con tonos cálidos y dorados, este bronceador resalta tus rasgos con un toque de sol que te acompañará todo el año."
  },
  {
   "id": "price_1OZrfnHpcUDiH65mu2RJ4OTg",
-  "nombre": "light",
+  "nombre": "Base de Maquillaje Luminosa Radiance",
   "img": "https://images.pexels.com\/photos\/2732197\/pexels-photo-2732197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "categoria": "base",
-  "precio": 15
+  "precio": 15,
+  "info": "Descubre la perfección natural con nuestra Base de Maquillaje Luminosa Radiance. Esta fórmula ligera se fusiona con tu piel, proporcionando una cobertura sutil que resalta tu luminosidad natural. Disfruta de un acabado radiante y fresco que realza tu belleza de manera suave y natural."
  },
  {
   "id": "price_1OZrgXHpcUDiH65m2JEDYean",
-  "nombre": "light",
+  "nombre": "Base de Maquillaje Aire Fresco SoftGlow",
   "img": "https://images.pexels.com\/photos\/2688991\/pexels-photo-2688991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   "categoria": "base",
-  "precio": 15
+  "precio": 15,
+  "info": "Siente la frescura con nuestra Base de Maquillaje Aire Fresco SoftGlow. Su textura suave y transpirable se adapta a tu tono de piel, ofreciendo una cobertura ligera que permite que tu piel respire. Experimenta un brillo suave y natural para un look impecable y sin esfuerzo."
  },
  {
   "id": "price_1OZrgtHpcUDiH65m1foXegsT",
-  "nombre": "shine",
+  "nombre": "Iluminador Brillo Estelar",
   "img": "https://images.pexels.com/photos/1499512/pexels-photo-1499512.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "categoria": "iluminador",
-  "precio": 10
+  "precio": 10,
+  "info": "Despierta tu resplandor interior con nuestro Iluminador Brillo Estelar. Esta fórmula luminosa y sutil agrega destellos de luz a tus pómulos, puente de la nariz y arco de Cupido. Logra un resplandor celestial que realza tus mejores características con cada aplicación."
  },
  {
   "id": "price_1OZrhAHpcUDiH65m4UTgjxtq",
-  "nombre": "shine",
+  "nombre": "Iluminador Aurora Brillante",
   "img": "https://images.pexels.com/photos/1499516/pexels-photo-1499516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   "categoria": "iluminador",
-  "precio": 10
+  "precio": 10,
+  "info": "Captura la magia de la aurora boreal con nuestro Iluminador Aurora Brillante. Sus tonos iridiscentes y reflectantes dan vida a tu rostro, proporcionando un brillo multidimensional. Añade un toque de encanto a tu maquillaje diario y deja que tu piel brille con un resplandor celestial."
  },
  {
   "id": "price_1OZrhPHpcUDiH65mTrHo3gEH",
-  "nombre": "shine",
+  "nombre": "Iluminador Lujo Radiante",
   "img": "https://images.unsplash.com\/photo-1515688594390-b649af70d282?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "iluminador",
-  "precio": 10
+  "precio": 10,
+  "info": " Experimenta la opulencia con nuestro Iluminador Lujo Radiante. Esta fórmula rica y sedosa resalta tus características faciales con un brillo sofisticado. Crea un resplandor elegante y luminoso que te acompañará desde la mañana hasta la noche."
  },
  {
   "id": "price_1OZrhbHpcUDiH65myOlgIPBl",
-  "nombre": "shine",
+  "nombre": "Iluminador Brillantez Dorada",
   "img": "https://images.unsplash.com\/photo-1512207724313-a4e675ec79ab?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "iluminador",
-  "precio": 10
+  "precio": 10,
+  "info": "Transforma tu look con nuestro Iluminador Brillantez Dorada. Infundido con destellos dorados, este iluminador proporciona un brillo cálido y radiante. Realza tu belleza natural y logra un resplandor dorado que refleje la luz de manera sublime."
  },
  {
-  "id": "034",
-  "nombre": "price_1OZrjEHpcUDiH65me6MSAbbY",
+  "id": "price_1OZrjEHpcUDiH65me6MSAbbY",
+  "nombre": "Prebase Mágica Sin Rastro",
   "img": "https://images.unsplash.com\/photo-1688380321332-da6b01cd4996?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "prebase",
-  "precio": 20
+  "precio": 20,
+  "info": "Descubre el secreto de una base perfecta con nuestra Prebase Mágica Sin Rastro. Esta fórmula invisible se desliza suavemente sobre tu piel, creando un lienzo impecable para tu maquillaje. Su textura ligera y sin rastro prepara tu piel para un acabado impecable que dura todo el día."
  },
  {
   "id": "price_1OZrjOHpcUDiH65mBp746V2O",
-  "nombre": "invisible",
+  "nombre": "Prebase Invisibilidad Instantánea",
   "img": "https://images.unsplash.com\/photo-1688380353667-a6d3ddb85600?q=80&w=2040&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   "categoria": "prebase",
-  "precio": 20
+  "precio": 20,
+  "info": "Prepárate para el maquillaje perfecto con nuestra Prebase Invisibilidad Instantánea. Esta prebase sin color se funde con tu piel, suavizando imperfecciones y creando una base perfecta para tu rutina de maquillaje. Disfruta de una piel suave y lista para resaltar tu belleza natural."
  }
 ]

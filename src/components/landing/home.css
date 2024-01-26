@@ -1,6 +1,7 @@
 .react-parallax {
     position: relative!important;
-    height: 150vh;
+    height: 180vh;
+    margin-top: -760px;
     
   }
   
@@ -16,16 +17,25 @@
     transition: top 0.1s ease-in;
     transition: top 0.3s ease out;
 }
+
+.logoBanner {
+    margin-top: 120vh;
+    margin-left: 80px;
+}
   
-.landing-page h1 {
+.logoBanner h1 {
     font-size: 54px;
-    margin-top: 40vh;
+    
     color: aliceblue;
 }
   
-.landing-page p {
+.logoBanner p  {
     font-size: 14px;
     margin: 0;
     color: aliceblue;
 }
-  
+
+.logoBanner img {
+    height: 35vh;
+
+}
