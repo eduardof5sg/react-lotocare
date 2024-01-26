@@ -13,44 +13,39 @@ body {
     top: 5%;
     margin-right: 10%;
     align-self: center;
-    display:flex;
     justify-content: center;
     align-items: center;
 }
-
-.form {
-    transform-style: preserve-3d;
-    transform-origin: center;
-    align-self: center;
-  }
-#formLoading, #formRegistro{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 70%;
-    transition: transform 1s ease;
-    border-radius: 5%;
-    align-self: center;
-}
-form div{
-    width: 100%;
-    min-width: min-content;
-    max-width: 600px;
-    display: inline-block;
-}
-div input{
-    align-self: center;
-    position: center;
-}
 #formRegistro{
     display: none;
+}
+#formulario1, #formulario2{
+    padding-bottom: 100px;
+}
+#formLoading, #formRegistro{
+    position: absolute;
+    width: 100%;
+    height: 70vw;
+    transition: transform 1s ease;
+    border-radius: 5%;
+    padding-left: 0%;
+    padding-bottom: 400px;
+}
+#formulario1 div{
+    text-align: center;
+    gap: 20px;
+    vertical-align:bottom;
+}
+#formulario2 div{
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 #btF1, #btF2{
     color: navy;
     cursor: pointer;
     position: center;
 }
-
 h1 {
     font-size: 25px;
     padding-top: 1rem;
@@ -58,75 +53,82 @@ h1 {
     background-color: #83C5BE;
     border-radius: 15px;
 }
-
 label {
     display: inline-block;
-    margin-bottom: 7px;
-    vertical-align: middle;
+    width: 300px;
+    min-width: fit-content;
+    padding: 5px;
+    text-align: right;
+    background-color: transparent;
 }
-
-input{
+label input, select input{
+    text-wrap: wrap;
+}
+input, select{
     border: none;
     font-size: 20px;
     background-color: #FFDDD2;
     margin: 10px;
+    margin-top: 50px;
     font-size: 20px;
     width: 300px;
     border-radius: 5px;
-    vertical-align: middle;
 }
-input:invalid {
+input:invalid, select:invalid {
     border: 1px dotted red;
   }
   
-  input:invalid:required {
+  input:invalid:required, select:invalid:required {
     background-image: linear-gradient(to right, pink, lightgreen);
   }
   
-  input:valid {
+  input:valid, select:valid {
     border: 1px solid lightgreen;
     background-color: #FFDDD2;
   }
 
-input:focus{
+  input:focus, select:focus{
     background-color: #FFDDD2;
     outline: none;
     
 }
 
-input::placeholder {
+input::placeholder, select::placeholder {
     color: lightgray;
     background-color: #FFDDD2
 }
-
-.form-control p {
-    visibility: hidden;
-    position: absolute;
+#check, #formRegistroCheckbox{
+    display: inline-block;
+    width: 10px;
+    max-width: fit-content;
+    text-wrap: nowrap;
+    padding: 5px;
     text-align: right;
-    color: rgb(255, 0, 0);
+    margin: 0%;
+}
+#labelCheck{
+    text-align: left;
+    text-wrap: wrap;
+    padding-left: 10px;
+}
+.labelSeletor{
+    text-align: right;
+    text-wrap: wrap;
+    padding-left: 10px;
 }
 
-.form-control.falla input{
-    border-color: rgb(245, 10, 10);
-    border-radius: 5px;
-    border-width: 2px;
+#edad{
+    display: inline-block;
+    width: 300px;
+    text-wrap: nowrap;
+    padding: 5px;
+    text-align: right;
 }
-
-.form-control.ok input{
-    border-color: rgb(12, 231, 23);
-    border-radius: 5px;
+.capt{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
 }
-
-.form-control.falla p {
-    visibility: visible;
-}
-
-.formNombre, .formCorreo, .formPass{
-    display: flex;
-    gap: 20px;
-}
-
-
 .modal {
     display: none;
     position: fixed;
@@ -139,8 +141,7 @@ input::placeholder {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: left;
   }
-  
-  .modal-content {
+.modal-content {
     background-color: #FFDDD2;
     border: 1px solid #888;
     width: fit-content;
@@ -153,7 +154,8 @@ input::placeholder {
     float: right;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 50%;
+    margin-right: 30px;
+    margin-top: 30px;
   }
   
   .close:hover,
@@ -162,42 +164,10 @@ input::placeholder {
     text-decoration: none;
     cursor: pointer;
   }
-
-button{
-    width: 200px;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #83C5BE;
-    display: block;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: none;
-}
-
-button:hover{
-    background-color: #e29578;
-}
-.verificacion{
-    width: 20px;
-    margin: 10px;
-    background-color: #ff0000;
-    font-size: 2000px;
-}
-
 @media (max-width:768px){
 
     body {
         font-size: 12px;
-        align-content: center;
-        display:flexbox;
-    }
-    .formularioPrincipal {
-        
-        flex-direction: column;
-        align-items: center;
-        margin-left: 7vh;
     }
     #formulario1, #formulario2{
         display: grid;
@@ -205,13 +175,10 @@ button:hover{
         padding-bottom: 100px;
         align-items: center;
     }
-    #formulario1 div, #formulario2 div{
-        display: flex;
-        flex-direction: column;
-    }
     .formRegistro {        
         margin-top: 90px;
         align-content: center;
+        padding-bottom: 100px;
     }
     input{
         margin: 5px;
@@ -219,3 +186,36 @@ button:hover{
         width: 200px;
     }
 }
+
+form {
+    transform-style: preserve-3d;
+    transform-origin: center;
+    align-content: center;
+}
+button{
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #83C5BE;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+button:hover{
+    background-color: #e29578;
+}
+#formBotReg, #formBotIni{
+    background: linear-gradient(90deg, transparent, #03f40f);
+    animation: botAnim 2s linear infinite;
+}
+@keyframes botAnim {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+  }

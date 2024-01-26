@@ -1,14 +1,90 @@
-import React, { PureComponent, useEffect } from "react";
+import React, { useState } from "react";
 import "../formulario/formulario.css";
 import Modal from "./modal.jsx";
+import ReCaptcha from "./ReCAPTCHA.jsx";
+import { useNavigate } from 'react-router-dom';
 
-export class Formulario extends PureComponent {
-  render() {
-    return (
+function Formulario() {
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
+  const navigate = useNavigate();
+
+  const handleRecaptchaChange = (value) => {
+    setRecaptchaValue(value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Validar otros campos antes del reCAPTCHA
+    const nombre = document.getElementById('nombre').value;
+    const apellidos = document.getElementById('apellidos').value;
+    const telefono = document.getElementById('telefono').value;
+    const correo1 = document.getElementById('correo1').value;
+    const correo2 = document.getElementById('correo2').value;
+    const password = document.getElementById('password').value;
+    const password2 = document.getElementById('password2').value;
+    const formRegistroCheckbox = document.getElementById('formRegistroCheckbox').value;
+    
+    if (!nombre || !nombre.match(/^[A-Za-z]+$/)) {
+      alert('Por favor, ingresa un nombre válido.');
+      return;
+    }
+    if (!apellidos || !apellidos.match(/^[A-Za-z]+$/)) {
+      alert('Por favor, ingresa apellidos válidos.');
+      return;
+    }
+    if (!telefono) {
+      alert('Por favor, ingresa un teléfono válido.');
+      return;
+    }
+    if (!correo1 || !correo1.match(/^([a-zA-Z0-9_.+-]+)@([a-zA-Z0-9-]+\.[a-zA-Z]{2,})$/)) {
+      alert('Por favor, ingresa un correo válido.');
+      return;
+    }
+    if (!correo2 || !correo2.match(/^([a-zA-Z0-9_.+-]+)@([a-zA-Z0-9-]+\.[a-zA-Z]{2,})$/)) {
+      alert('Por favor, ingresa un correo válido.');
+      return;
+    }
+    if (correo1 !== correo2) {
+      alert('Los dos campos de correo tienen que ser iguales.');
+      return;
+    }
+    console.log(password.required);
+    if (!password || !password.required==false) {
+      alert('Por favor, ingresa una contraseña.');
+      return;
+    }
+    console.log(password2.required);
+    if (!password2 || !password2.required==false) {
+      alert('Por favor, ingresa una contraseña igual a la primera.');
+      return;
+    }
+    if (password !== password2) {
+      alert('Los dos campos de contraseña tienen que ser iguales.');
+      return;
+    }
+    console.log(formRegistroCheckbox)
+    if (!formRegistroCheckbox || !formRegistroCheckbox.required==false) {
+      alert('Por favor, confirma que estás de acuerdo con nuestras condiciones.');
+      return;
+    }
+
+    // Validar si reCAPTCHA se ha completado
+    if (!recaptchaValue) {
+      alert('Por favor, completa el reCAPTCHA.');
+      return;
+    }
+
+    // Enviar el formulario
+    alert('Formulario enviado correctamente!');
+    navigate('/');
+  };
+
+  return (
       <div class="contenedorForms">
         <div id="formLoading">
           <h1>INGRESAR</h1>
-          <div class="form-control">
+          <div class="formControl">
             <form id="formulario1" action="">
               <div>
                 <label for="correo">Correo electronico</label>
@@ -18,34 +94,57 @@ export class Formulario extends PureComponent {
                 <label for="pass1">Contraseña</label>
                 <input id="pass1" type="password" placeholder="Tu contraseña" minLength={8} maxLength={30} required />
               </div>
-              <div class="formCheck">
+              <div id="formCheck" class="formCheck">
                 <input type="checkbox" id="check" required />
-                <label for="check">Recuerdame</label>
+                <label for="check" id="labelCheck">Recuérdame</label>
               </div>
-              <div>
-                <button>Iniciar Sesión</button>
+              <div class="formBot">
+                <button id="formBotIni">Iniciar Sesión</button>
               </div>
-              <div>¿No tienes cuenta?. Créala <span id="btF1">aquí</span>.</div>
+              <div  class="formBot" id="cambiaForm">¿No tienes cuenta?. Créala <span id="btF1">aquí</span>.</div>
             </form>
           </div>
         </div>
 
         <div id="formRegistro">
           <h1>REGÍSTRATE</h1>
+          <div class="formControl">
           <form class="form2" id="formulario2" action="">
             <div class="formNombre">
               <div>
                 <label for="nombre" class="label-nombre">
                   Nombre
                 </label>
-                <input type="text" id="nombre" minLength={2} maxLength={30} placeholder="Introduce tu nombre." required />
+                <input type="text" id="nombre" minLength={2} maxLength={30} placeholder="Introduce tu nombre." pattern="[A-Za-z]+" title="Solo se permiten letras" required />
               </div>
               <div>
                 <label for="apellidos">Apellidos</label>
-                <input type="text" name="" id="apellidos" minLength={2} maxLength={40} placeholder="Introduce tus apellidos." required />
+                <input type="text" name="" id="apellidos" minLength={2} maxLength={40} placeholder="Introduce tus apellidos." pattern="[A-Za-z]+" title="Solo se permiten letras" required />
               </div>
             </div>
             <div>
+              <div>
+                <label class="labelSeletor" for="genero">Genero</label>
+                <select
+                  class="selector"
+                  id="genero"
+                >
+                  <option value="">Elije tu genero</option>
+                  <option value="male">Hombre</option>
+                  <option value="female">Mujer</option>
+                  <option value="other">Otro / Prefiero no decirlo</option>
+                </select>
+                </div>
+                <div>
+                <label class="labelSeletor" for="edad">Fecha de nacimiento</label>
+                <input
+                  class="selector"
+                  id="edad"
+                  type="date"
+                />
+              </div>
+            </div>
+            <div class="formTel">
               <div>
                 <label for="telefono">Teléfono</label>
                 <input type="tel" id="telefono" minLength={9} maxLength={9} pattern="\d{9,9}" placeholder="Introduce tu telefono." required />
@@ -53,36 +152,38 @@ export class Formulario extends PureComponent {
             </div>
             <div class="formCorreo">
               <div>
-                <label for="correo2">Email</label>
-                <input type="email" id="correo2" minLength={8} maxLength={30} placeholder="Introduce tu correo." required />
+                <label for="correo1">Email</label>
+                <input type="email" id="correo1" minLength={8} maxLength={30} pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Ingresa una dirección de correo electrónico válida" placeholder="Introduce tu correo." required />
               </div>
               <div>
-                <label for="confirmarCorreo">Confirmar Email</label>
-                <input type="email" id="confirmarCorreo" minLength={8} maxLength={30} placeholder="Repite tu correo." required />
+                <label for="correo2">Confirmar Email</label>
+                <input type="email" id="correo2" minLength={8} maxLength={30} pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Ingresa una dirección de correo electrónico válida" placeholder="Repite tu correo." required />
               </div>
             </div>
             <div class="formPass">
               <div>
-                <label for="pass2">Contraseña</label>
-                <input type="password" id="pass2" minLength={8} maxLength={30} placeholder="Introduce contraseña. Mínimo 8 caracteres." required />
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" minLength={8} maxLength={30} placeholder="Introduce contraseña. Mínimo 8 caracteres." required />
               </div>
               <div>
-                <label for="confirmPass">Confirmar contraseña</label>
-                <input type="password" id="confirmPass" minLength={8} maxLength={30} placeholder="Repite contraseña" required />
+                <label for="password2">Confirmar contraseña</label>
+                <input type="password" id="password2" minLength={8} maxLength={30} placeholder="Repite contraseña" required />
               </div>
             </div>
             <div class="labelCheckbox">
               <input id="formRegistroCheckbox" class="verificacion" type="checkbox" required />
-              <label for="formRegistroCheckbox"> He leido y estoy de acuerdo con los <a href="#" id="abrirModal">terminos y condiciones</a>
+              <label for="formRegistroCheckbox"> He leido y estoy de acuerdo con los <a href="#" id="abrirModal">terminos y condiciones</a>.
               </label>
             </div>
             <div class="capt">
+            <ReCaptcha onChange={handleRecaptchaChange} required />
             </div>
-            <div>
-              <button>Registrarse</button>
+            <div class="formBot">
+              <button id="formBotReg" onClick={handleSubmit}>Registrarse</button>
             </div>
-              <div>¿Tienes cuenta?. Identifícate <span id="btF2">aquí</span>.</div>
+              <div class="formBot">¿Tienes cuenta?. Identifícate <span id="btF2">aquí</span>.</div>
           </form>
+          </div>
         </div>
 
         <div id="myModal" class="modal">
@@ -185,6 +286,6 @@ export class Formulario extends PureComponent {
       </div>
     );
   }
-}
+
 
 export default Formulario;
