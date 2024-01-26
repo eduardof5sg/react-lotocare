@@ -12,6 +12,23 @@ function Formulario() {
     setRecaptchaValue(value);
   };
 
+  const handleSubmit2 = (e) => {
+    e.preventDefault();
+    const correo = document.getElementById('correo').value;
+    const pass1 = document.getElementById('pass1').value;
+
+    
+    if (!correo || !correo.match(/^([a-zA-Z0-9_.+-]+)@([a-zA-Z0-9-]+\.[a-zA-Z]{2,})$/)) {
+      alert('Por favor, ingresa un correo válido.');
+      return;
+    }
+    if (!pass1 || pass1.length < 8 || pass1.length > 30) {
+      alert('Por favor, ingresa una contraseña válida. Mínimo 8 caracteres.');
+      return;
+    }
+    navigate('/perfil-usuario');
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -96,11 +113,11 @@ function Formulario() {
                 <input id="pass1" type="password" placeholder="Tu contraseña" minLength={8} maxLength={30} required />
               </div>
               <div id="formCheck" class="formCheck">
-                <input type="checkbox" id="check" required />
-                <label for="check" id="labelCheck">Recuérdame</label>
+                <input type="checkbox" id="check1" required />
+                <label for="check1" id="labelCheck">Recuérdame.</label>
               </div>
               <div class="formBot">
-                <button id="formBotIni">Iniciar Sesión</button>
+                <button id="formBotIni" onClick={handleSubmit2}>Iniciar Sesión</button>
               </div>
               <div  class="formBot" id="cambiaForm">¿No tienes cuenta?. Créala <span id="btF1">aquí</span>.</div>
             </form>
