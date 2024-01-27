@@ -8,6 +8,7 @@ import CartProvider from "./components/Shopping/CartContext";
 import PaginaPrincipal from "./pages/home/home";
 import Cabecera from "./components/navbar/Cabecera";
 import Footer from "./components/navbar/Footer";
+import ProfilePage from "./pages/perfil/ProfilePage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/productos" element={<Store />} />
           <Route path="/success" element={<Success />} />
           <Route path="/cancel" element={<Cancel />} />
+          <Route path="/profilePage" element={<ProfilePage />} />
           {/* <Route path="/aboutUs" element={<AboutUs />} /> */}
           {/* <Route path="/equipo" element={<OurTeam />} /> */}
           {/* <Route path="/formulario" element={<Formulario />} /> */}
