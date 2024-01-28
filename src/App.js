@@ -13,6 +13,7 @@ import OurTeam from './pages/equipo/equipo';
 import ProductoDetallado from './pages/productoDetallado/ProductoDetallado';
 import Formulario from './pages/formulario/formulario';
 import WishProvider from './components/wishlist/wishContext';
+import ProfilePage from "./pages/perfil/ProfilePage";
 
 
 function App() {
