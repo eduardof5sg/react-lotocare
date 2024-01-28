@@ -25,22 +25,21 @@ const Botonera = () => {
       <Link to="/productos" aria-label="Buscar">
         <i className="bx bx-search-alt-2"></i>
       </Link>
-      <Link to="/wish" aria-label="Lista de deseos">
-        <i className="bx bx-heart"></i>
-      </Link>
-
-      <Link aria-label="Carrito de compra" onClick={handleShowCesta}>
-        <i id="navbarCarrito" className="bx bx-cart-alt"></i>
-        {showCesta && <span className="cart-count">1</span>}
-      </Link>
-      <Cesta onHide={handleCloseCesta} showModal={showCesta} />
-
       <span className="navigation_group">
       <Link >
         <i className="bx bx-user userProfile" onClick={handleProfileClick}></i>
       </Link>
         <UserProfileDropdown isVisible={isProfileDropdownVisible} />
       </span>
+      <Link to="/wish" aria-label="Lista de deseos">
+        <i className="bx bx-heart"></i>
+      </Link>
+      <Link aria-label="Carrito de compra" onClick={handleShowCesta}>
+        <i id="navbarCarrito" className="bx bx-cart-alt"></i>
+        {showCesta && <span className="cart-count">1</span>}
+      </Link>
+      <Cesta onHide={handleCloseCesta} showModal={showCesta} />
+
     </div>
   );
 };
