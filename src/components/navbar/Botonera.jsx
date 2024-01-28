@@ -7,10 +7,14 @@ import { getProductData } from "../../pages/Shopping/productsStore";
   import { CartContext } from "../Shopping/CartContext";
   import WishlistModal from "../wishlist/modalWhishlist";
   
+  
+  
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
     const [showModal, setShowModal] = useState(false);
+    const [showWishlistModal, setShowWishlistModal] = useState(false);
+   
 
     const handleShowCesta = () => {
       setShowCesta(true);
@@ -27,8 +31,8 @@ import { getProductData } from "../../pages/Shopping/productsStore";
       setShowModal(false);
     };
 
-    const handleWishlistIconClick = () => {
-     
+    const handleWishlistIconClick = () => {  // Asegúrate de pasar el producto correcto
+
       setShowWishlistModal(true);
     };
 
@@ -62,4 +66,4 @@ import { getProductData } from "../../pages/Shopping/productsStore";
 
   export default Botonera;
 
-
+ 

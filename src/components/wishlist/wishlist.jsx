@@ -6,23 +6,28 @@ const AddToFavoritesButton = ({ product }) => {
   const { addToWishList } = useContext(WishlistContext);
 
   const addToFavorites = () => {
-    if (product && product.id) {
-      addToWishList(product.id);
-      console.log(addToWishList);
-      console.log("Añadido a Favoritos:", product.nombre, product.img); 
+   if (product && product.id && product.nombre && product.img) {
+      const result = addToWishList(product.id, product.nombre, product.img);
+      console.log(result);
+      if (result.success) {
+        console.log("Añadido a Favoritos:", product.nombre, product.img);
+      } else {
+        console.error(result.message);
+      }
     } else {
       console.error("No se pudo agregar a Favoritos: producto indefinido o sin ID");
     }
   };
+  
+  
 
   return (
-    <Button
-      variant="success"
-      onClick={addToFavorites}
-      className="my-2"
-    >
-      Añadir a Favoritos
-    </Button>
+    <i
+    onClick={addToFavorites}
+    className="bx bx-heart"
+    style={{ cursor: "pointer" }}
+    
+    ></i>
   );
 };
 
