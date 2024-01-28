@@ -1,5 +1,5 @@
 body {
-    
+    background-color: #FFDDD2;
     font-family: Arial, Calibri, sans-serif;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -11,110 +11,125 @@ body {
     width: 80%;
     left: 10%;
     top: 5%;
-    text-align: center;
-}
-
-.form {
-    transform-style: preserve-3d;
-    transform-origin: center;
-  }
-#formLoading, #formRegistro{
-    display: block;
-    width: 80%;
-    height: 70%;
-    background-color: #f0f0f0;
-    transition: transform 1s ease;
-    border-radius: 5%;
+    margin-right: 10%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 #formRegistro{
     display: none;
 }
+#formulario1, #formulario2{
+    padding-bottom: 100px;
+}
+#formLoading, #formRegistro{
+    position: absolute;
+    width: 100%;
+    height: 70vw;
+    transition: transform 1s ease;
+    border-radius: 5%;
+    padding-left: 0%;
+    padding-bottom: 400px;
+}
+#formulario1 div{
+    text-align: center;
+    gap: 20px;
+    vertical-align:bottom;
+}
+#formulario2 div{
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 #btF1, #btF2{
     color: navy;
     cursor: pointer;
+    position: center;
 }
-
 h1 {
     font-size: 25px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: #83C5BE;
+    border-radius: 15px;
 }
-
-.form-control label {
+label {
     display: inline-block;
-    margin-bottom: 7px;
+    width: 300px;
+    min-width: fit-content;
+    padding: 5px;
+    text-align: right;
+    background-color: transparent;
 }
-
-input{
-    border-top: none;
-    border-left: none;
-    border-right: none;
+label input, select input{
+    text-wrap: wrap;
+}
+input, select{
+    border: none;
     font-size: 20px;
     background-color: #FFDDD2;
     margin: 10px;
+    margin-top: 50px;
     font-size: 20px;
     width: 300px;
+    border-radius: 5px;
 }
+input:invalid, select:invalid {
+    border: 1px dotted red;
+  }
+  
+  input:invalid:required, select:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  }
+  
+  input:valid, select:valid {
+    border: 1px solid lightgreen;
+    background-color: #FFDDD2;
+  }
 
-input:focus{
+  input:focus, select:focus{
     background-color: #FFDDD2;
     outline: none;
     
 }
 
-input::placeholder {
-    color: #FFDDD2;
+input::placeholder, select::placeholder {
+    color: lightgray;
     background-color: #FFDDD2
 }
-
-.form-control p {
-    visibility: hidden;
-    position: absolute;
+#check, #formRegistroCheckbox{
+    display: inline-block;
+    width: 10px;
+    max-width: fit-content;
+    text-wrap: nowrap;
+    padding: 5px;
     text-align: right;
-    color: rgb(255, 0, 0);
+    margin: 0%;
+}
+#labelCheck{
+    text-align: left;
+    text-wrap: wrap;
+    padding-left: 10px;
+}
+.labelSeletor{
+    text-align: right;
+    text-wrap: wrap;
+    padding-left: 10px;
 }
 
-.check input {
-    margin-left: 10px;
-    display: block;
+#edad{
+    display: inline-block;
+    width: 300px;
+    text-wrap: nowrap;
+    padding: 5px;
+    text-align: right;
 }
-
-.form-control.falla input{
-    border-color: rgb(245, 10, 10);
-    border-radius: 5px;
-    border-width: 2px;
+.capt{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
 }
-
-.form-control.ok input{
-    border-color: rgb(12, 231, 23);
-    border-radius: 5px;
-}
-
-.form-control.falla p {
-    visibility: visible;
-}
-
-.formNombre, .formCorreo, .formPass{
-    display: flex;
-    gap: 20px;
-}
-
-
-.labelCheckbox {
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.labelCheckbox label {
-    margin-left: 10px;
-}
-.labelCheckbox input {
-    
-    width: 20px;
-}
-
-.modal1 {
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -124,10 +139,10 @@ input::placeholder {
     height: 80vh;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
+    text-align: left;
   }
-  
-  .modal1-content {
-    background-color: #ffffff;
+.modal-content {
+    background-color: #FFDDD2;
     border: 1px solid #888;
     width: fit-content;
     height: fit-content;
@@ -139,7 +154,8 @@ input::placeholder {
     float: right;
     font-size: 30px;
     font-weight: bold;
-    margin-left: 50%;
+    margin-right: 30px;
+    margin-top: 30px;
   }
   
   .close:hover,
@@ -148,45 +164,21 @@ input::placeholder {
     text-decoration: none;
     cursor: pointer;
   }
+@media (max-width:768px){
 
-.button1{
-    width: 200px;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #83C5BE;
-    display: block;
-    padding: 10px;
-    margin-top: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    border: none;
-}
-
-.button1:hover{
-    background-color: #e29578;
-}
-
-@media (max-width:450px){
-
-      .formularioPrincipal {
-        
-        flex-direction: column;
-        align-items: center;
-        margin-left: 7vh;
-        align-items: stretch;
+    body {
+        font-size: 12px;
     }
     #formulario1, #formulario2{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         padding-bottom: 100px;
         align-items: center;
     }
-    #formulario1 div, #formulario2 div{
-        display: flex;
-        flex-direction: column;
-    }
     .formRegistro {        
         margin-top: 90px;
+        align-content: center;
+        padding-bottom: 100px;
     }
     input{
         margin: 5px;
@@ -194,3 +186,36 @@ input::placeholder {
         width: 200px;
     }
 }
+
+form {
+    transform-style: preserve-3d;
+    transform-origin: center;
+    align-content: center;
+}
+button{
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #83C5BE;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+}
+button:hover{
+    background-color: #e29578;
+}
+#formBotReg, #formBotIni{
+    background: linear-gradient(90deg, transparent, #03f40f);
+    animation: botAnim 2s linear infinite;
+}
+@keyframes botAnim {
+    0% {
+      left: -100%;
+    }
+  
+    50%,100% {
+      left: 100%;
+    }
+  }
