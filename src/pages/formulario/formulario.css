@@ -141,12 +141,13 @@ input::placeholder, select::placeholder {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: left;
   }
-.modal-content {
+.modalContent {
     background-color: #FFDDD2;
     border: 1px solid #888;
     width: fit-content;
     height: fit-content;
     width: 99%;
+    z-index: 10;
   }
   
   .close {

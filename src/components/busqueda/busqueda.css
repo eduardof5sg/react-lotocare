@@ -2,6 +2,14 @@
   border: none;
   width: 100%;
   align-items: center;
+  z-index: 10;
+}
+
+.fade modal show{
+  border: none;
+  width: 100%;
+  align-items: center;
+  z-index: 9;
 }
 
 .categories-section ul {
