@@ -5,11 +5,14 @@
   import ProductFilterModal from "../busqueda/busqueda";
   import WishlistModal from "../wishlist/modalWhishlist";
   
+  
+  
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
     const [showModal, setShowModal] = useState(false);
     const [showWishlistModal, setShowWishlistModal] = useState(false);
+   
 
     const handleShowCesta = () => {
       setShowCesta(true);
@@ -26,8 +29,8 @@
       setShowModal(false);
     };
 
-    const handleWishlistIconClick = () => {
-     
+    const handleWishlistIconClick = () => {  // Asegúrate de pasar el producto correcto
+
       setShowWishlistModal(true);
     };
 
@@ -60,4 +63,4 @@
 
   export default Botonera;
 
-
+ 

@@ -12,11 +12,13 @@ import AboutUs from './pages/aboutUs/about';
 import OurTeam from './pages/equipo/equipo';
 import ProductoDetallado from './pages/productoDetallado/ProductoDetallado';
 import Formulario from './pages/formulario/formulario';
+import WishProvider from './components/wishlist/wishContext';
 
 
 function App() {
   return (
     <CartProvider>
+      <WishProvider>
         <BrowserRouter>
           {/* <Router> */}
                <Cabecera />
@@ -35,6 +37,7 @@ function App() {
                 <Footer />
           {/* </Router> */}
         </BrowserRouter>
+      </WishProvider>
     </CartProvider>
   );
 }
