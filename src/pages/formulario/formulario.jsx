@@ -26,7 +26,7 @@ function Formulario() {
       alert('Por favor, ingresa una contraseña válida. Mínimo 8 caracteres.');
       return;
     }
-    navigate('/perfil-usuario');
+    navigate('/profilePage');
   }
 
   const handleSubmit = (e) => {
@@ -306,4 +306,4 @@ function Formulario() {
   }
 
 
-export default Formulario;
+  export default Formulario;

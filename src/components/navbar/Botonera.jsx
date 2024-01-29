@@ -7,6 +7,7 @@ import { getProductData } from "../../pages/Shopping/productsStore";
   import { CartContext } from "../Shopping/CartContext";
   import WishlistModal from "../wishlist/modalWhishlist";
   import UserProfileDropdown from "../../components/perfil/UserProfileDropdown";
+  import Formulario from "../../pages/formulario/formulario";
   
   
   
@@ -53,15 +54,15 @@ import { getProductData } from "../../pages/Shopping/productsStore";
         <Link  aria-label="Buscar" onClick={handleIconClick}>
           <i className="bx bx-search-alt-2"></i>
         </Link>
-        <span className="navigation_group">
+        {/*<span className="navigation_group">
           <Link >
             <i className="bx bx-user userProfile" onClick={handleProfileClick}></i>
           </Link>
             <UserProfileDropdown isVisible={isProfileDropdownVisible} />
-        </span>
-        {/* <Link to="/formulario" aria-label="Mi perfil">
+        </span>*/}
+         <Link to="/formulario" aria-label="Mi perfil">
           <i className="bx bx-user"></i>
-        </Link> */}
+        </Link> 
         <Link aria-label="Lista de deseos" onClick={handleWishlistIconClick}>
         {/* Mantén el ícono de la lista de deseos aquí */}
         <i className="bx bx-heart"></i>
