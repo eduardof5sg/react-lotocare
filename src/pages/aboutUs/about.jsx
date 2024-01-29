@@ -3,7 +3,7 @@ import React from 'react';
 import '../aboutUs/about.css';
 import about1 from '../../image/brand/cosmetic.jpg';
 import about2 from '../../image/brand/naturecosmetic.jpg';
-import about3 from '../../image/brand/modelo-agua.jpg';
+import about3 from '../../image/brand/modelo-agua.jpeg';
 
 
 const AboutUs = () => {
