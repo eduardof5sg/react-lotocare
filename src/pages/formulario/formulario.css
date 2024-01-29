@@ -20,6 +20,10 @@ body {
 }
 #formulario1, #formulario2{
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 #formLoading, #formRegistro{
     position: absolute;
@@ -65,7 +69,6 @@ label input, select input{
 input, select{
     border: none;
     font-size: 20px;
-    
     margin: 10px;
     margin-top: 50px;
     font-size: 20px;
@@ -73,11 +76,11 @@ input, select{
     border-radius: 5px;
 }
 input:invalid, select:invalid {
-    border: 1px dotted red;
+    border: 1px dotted #E29578;
   }
   
   input:invalid:required, select:invalid:required {
-    background-image: linear-gradient(to right, pink, lightgreen);
+    background-color: #FFDDD2;
   }
   
   input:valid, select:valid {
@@ -92,8 +95,8 @@ input:invalid, select:invalid {
 }
 
 input::placeholder, select::placeholder {
-    color: lightgray;
-    background-color: #FFDDD2
+    color: rgb(101, 101, 101);
+    background-color: #FFDDD2;
 }
 #check, #formRegistroCheckbox{
     display: inline-block;
@@ -203,7 +206,7 @@ button:hover{
     background-color: #e29578;
 }
 #formBotReg, #formBotIni{
-    background: linear-gradient(90deg, transparent, #03f40f);
+    background: #83C5BE;
     animation: botAnim 2s linear infinite;
 }
 @keyframes botAnim {
