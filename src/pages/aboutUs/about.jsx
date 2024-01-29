@@ -8,12 +8,15 @@ import about3 from '../../image/brand/modelo-agua.jpg';
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className='about'>
+      <div className='about-head'>
+      <h2>La misión LotoCare</h2>
+      </div>
       {/* First row */}
       <div className="first-row">
         <img src={about1} alt="About Us 1" />
         <div>
-          <h2>Una Historia de Innovación y Belleza</h2>
+          <h3>Una Historia de Innovación y Belleza</h3>
           <p>Somos una marca que nació del deseo de ofrecer una solución simple y efectiva para el cuidado de la piel. <br />
           Nacimos en Madrid, por lo cual nos esforzamos en mantener nuestra relaación con empresas locales <br /> 
           Incluso ahora, con nuestra presencia gobal en expansión, la mayoria de nuestros productos <br />
@@ -24,7 +27,7 @@ const AboutUs = () => {
       {/* Second row */}
       <div className="second-row">
         <div>
-          <h2>Sostenibilidad y Calidad</h2>
+          <h3>Sostenibilidad y Calidad</h3>
           <p>Menos es más: Creemos en una forma de vida simple, pero mejor. <br />
           Desde el principio, nuestras fórmulas han sido diseñadas para ofrecer más beneficios con menos pasos, <br />
           nuestros productos, testados en laboratorio, hacen lo que dicen que hacen. <br />
@@ -37,7 +40,7 @@ const AboutUs = () => {
       <div className="third-row">
         <img src={about3} alt="About Us 3" />
         <div>
-          <h2>Belleza Sin Fronteras</h2>
+          <h3>Belleza Sin Fronteras</h3>
           <p>Creemos en la belleza inherente de las personas, es por eso que queremos preservarla y <br />
           ensalzarla con productos que hablen por sí mismos, libres de pretensiones, y que celebren la belleza en<br />
           todas sus formas. <br />

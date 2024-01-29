@@ -1,9 +1,33 @@
-/* src/components/AboutUs.css */
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+  width: 100%;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.about-head{
+  background-color: #E8AA93;
+  width: 100%;
+  margin: -14px 0px 0px 71%;
+  padding: 12px 0px 0px 15px;
+}
 
 /* First row styles */
 .first-row {
     display: flex;
     align-items: center;
+    background-color: #83C5BE;
   }
   
   .first-row img {
@@ -16,10 +40,6 @@
   .second-row {
     display: flex;
     align-items: center;
-  }
-  
-  .second-row h2 {
-    margin-right: 20px;
   }
   
   .second-row img {

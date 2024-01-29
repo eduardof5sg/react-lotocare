@@ -21,8 +21,8 @@ const HamburguesaMenu = () => {
         {/* Utilizar Link en lugar de <a> */}
         <Link to="/">Inicio</Link>
         <Link to="/productos">Productos</Link>
-        <Link to="/aboutUs">Sobre nosotros</Link>
-        <Link to="/equipo">Contacto</Link>
+        <Link to="/aboutUs">Sobre Nosotros</Link>
+        <Link to="/equipo">Equipo</Link>
       </div>
       )}
     </div>
