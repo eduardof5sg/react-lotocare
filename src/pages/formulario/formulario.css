@@ -137,7 +137,7 @@ input::placeholder, select::placeholder {
    
     text-align: left;
   }
-.modal-content {
+.modalContent {
    
     border: 1px solid #888;
     width: fit-content;
