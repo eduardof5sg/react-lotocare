@@ -15,7 +15,7 @@ const PromoBanner = () => {
           <p>¡Nuevas ofertas en tus productos favoritos!</p>
         </div>
         <div className="banner-right">
-          <span className="double-arrow">➤➤</span>
+          <i className='bx bx-chevron-right-circle bx-lg ' ></i>
         </div>
       </div>
     </div>

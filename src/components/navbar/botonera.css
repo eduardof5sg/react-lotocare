@@ -4,13 +4,14 @@
     right: 0px;
     padding: 10px 4px;
     display: flex;
+    align-items: center;
   }
 .botonera a i{
     font-size:larger;
 }
   .botonera a{
     padding: 13px;
-    color: #ffffff;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
   }
@@ -25,7 +26,7 @@
     top: 15px;
     left: 132px;
     background-color: red;
-    color: white;
+    color: whitesmoke;
     border-radius: 50%;
     padding: 3px 7px;
     font-size: 10px;
