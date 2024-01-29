@@ -25,7 +25,7 @@ const LandingPage = () => {
           <div className={fixedText ? 'fixed-text' : ''}>            
             <div className='logoBanner'>
               <h1>LotoCare</h1>
-              <p>La Esencia de la Naturaleza enn tu Piel</p>
+              <p>Embárcate en la Pureza Natural: La Esencia de la Naturaleza, Ahora en Tu Piel</p>
             </div>
           </div>
         </Parallax>      
