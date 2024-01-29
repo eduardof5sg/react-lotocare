@@ -20,6 +20,8 @@
   .infoProducto {
     margin-top: 20px;
     width: 70%;
+    text-align: justify;
+    padding-left: 20px;
   }
 
   .infoProducto h2 {
@@ -49,4 +51,59 @@
 .cantidadProducto {
     margin: 0 40px; /* Ajusta el margen según sea necesario */
     font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+  }
+  @media only screen and (max-width: 450px) {
+    .productoDetallado {
+      flex-direction: column;
+      align-items: center;
+      margin: 50px auto; /* Ajuste del margen y centrado en dispositivos más pequeños */
+      justify-content: center;
+      margin-left: 0;
+    }
+    .imagenDetallada{
+      text-align: center;
+    }
+    .imagenDetallada img {
+      height: auto; /* Hacer la imagen responsive */
+      width: 60%;
+      border-radius: 20px;
+      box-shadow: 12px 5px 6px rgba(0, 0, 0, 0.3);
+      margin-top: 15%;
+      margin-left: 5px;
+    }
+  
+    .infoProducto {
+      width: 90%; /* Ampliar el ancho del contenedor de información */
+      margin-top: 20px;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .infoProducto h2 {
+      font-size: 1.5em; /* Ajustar el tamaño del texto */
+      background-color: #83c5be;
+      color: #fff;
+    }
+  
+    .botonCarrito {
+      gap: 2px; /* Reducir el espacio entre elementos */
+      text-align: center;
+    }
+  
+    .botonCarrito button,
+    .boton1 button,
+    .boton2 button {
+      width: 40%; /* Hacer que los botones ocupen todo el ancho */
+    }
+  
+    .cantidadProducto {
+      margin: 20px 0; /* Ajustar el margen según sea necesario */
+    }
+    .btn.btn-success{
+      width: 45px;
+      margin: 20px;
+    }
+
   }
