@@ -34,6 +34,11 @@
     
 }
 
+.botonCarrito button {
+
+  width: 120px;
+}
+
 .cantidadProducto {
     margin: 0 40px; /* Ajusta el margen según sea necesario */
     font-weight: bold;
