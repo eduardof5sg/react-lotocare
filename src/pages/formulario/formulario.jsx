@@ -205,7 +205,7 @@ function Formulario() {
         </div>
 
         <div id="myModal" class="modal">
-            <div class="modalContent">
+            <div class="modal-content">
               <span class="close">&times;</span>
               {/* Contenido del modal (puedes agregar aquí tus términos y condiciones) */}
               <p>
