@@ -49,12 +49,12 @@ const OurTeam = () => {
       </div>
       <div className="diamond-row">
         <div className="team-card single-card">
+          <p>{teamMembers[3].description}</p>
           <div className='card-first'>
             <img src={teamMembers[3].image} alt={`Team Member ${teamMembers[3].id}`} />
             <h3>{teamMembers[3].name}</h3>
             <h4>{teamMembers[3].role}</h4>
           </div>
-          <p>{teamMembers[3].description}</p>
         </div>
       </div>
     </div>
