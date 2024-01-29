@@ -1,0 +1,27 @@
+.g-4 {
+    
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 10px;;  
+    margin-right: 20px;
+
+}
+
+
+.card button {
+    margin: 20px;
+}
+
+.col-sm-6 button {
+    width: 50px;
+}
+.row {
+    display: flex;
+    align-items: flex-end;
+   
+}
+.card {
+   
+    flex-direction: column;
+}
+

@@ -40,7 +40,7 @@ const ProductoDetallado = () => {
         
         {cart.getProductQuantity(product.id) > 0 ? (
           <div className='botonCarrito'>
-            <div>
+            <div className='boton1'>
               <Button variant='success' onClick={removeFromCart}>
                 -
               </Button>
@@ -51,7 +51,7 @@ const ProductoDetallado = () => {
                 +
               </Button>
             </div>
-            <div>
+            <div className='boton2'>
               <Button variant='danger' onClick={deleteFromCart}>
                 Eliminar del carrito
               </Button>

@@ -18,15 +18,16 @@ const HamburguesaMenu = () => {
       </div>
       {menuOpen && (
         <div className="menu-content">
-        {/* Utilizar Link en lugar de <a> */}
-        <Link to="/">Inicio</Link>
-        <Link to="/productos">Productos</Link>
-        <Link to="/aboutUs">Sobre Nosotros</Link>
-        <Link to="/equipo">Equipo</Link>
-      </div>
+          {/* Utilizar Link en lugar de <a> */}
+          <Link to="/" onClick={() => setMenuOpen(false)}>Inicio</Link>
+          <Link to="/productos" onClick={() => setMenuOpen(false)}>Productos</Link>
+          <Link to="/aboutUs" onClick={() => setMenuOpen(false)}>Sobre nosotros</Link>
+          <Link to="/equipo" onClick={() => setMenuOpen(false)}>Contacto</Link>
+        </div>
       )}
     </div>
   );
 };
 
 export default HamburguesaMenu;
+
