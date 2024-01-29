@@ -4,6 +4,7 @@ import { Button } from 'react-bootstrap';
 import productsArray from '../../db.json';
 import { CartContext } from '../../components/Shopping/CartContext';
 import './detallado.css';
+import AddToFavoritesButton from '../../components/wishlist/wishlist';
 
 const ProductoDetallado = () => {
   const { id } = useParams();
@@ -28,12 +29,15 @@ const ProductoDetallado = () => {
 
   return (
     <div className='productoDetallado'>
+      
       <div className='imagenDetallada'>
         <img src={product.img} alt={product.nombre} />
+        
       </div>
       <div className='infoProducto'>
-        <h2>{product.nombre}</h2>
+        <h2>{product.nombre}</h2><AddToFavoritesButton product={product} />
         <p className='precio'>Precio: €{product.precio}</p>
+        
         {cart.getProductQuantity(product.id) > 0 ? (
           <div className='botonCarrito'>
             <div>
@@ -52,6 +56,7 @@ const ProductoDetallado = () => {
                 Eliminar del carrito
               </Button>
             </div>
+            
           </div>
         ) : (
           <Button variant='primary' onClick={addToCart}>
@@ -59,6 +64,7 @@ const ProductoDetallado = () => {
           </Button>
         )}
         <p className='infoProducto'>"{product.info}"</p>
+        
       </div>
 
     </div>

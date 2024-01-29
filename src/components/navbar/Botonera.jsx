@@ -6,11 +6,17 @@
 import { getProductData } from "../../pages/Shopping/productsStore";
   import { CartContext } from "../Shopping/CartContext";
   import WishlistModal from "../wishlist/modalWhishlist";
+  import UserProfileDropdown from "../../components/perfil/UserProfileDropdown";
+  
+  
   
 
   export const Botonera = () => {
     const [showCesta, setShowCesta] = useState(false); 
     const [showModal, setShowModal] = useState(false);
+    const [showWishlistModal, setShowWishlistModal] = useState(false);
+    const [isProfileDropdownVisible, setProfileDropdownVisible] = useState(false);
+   
 
     const handleShowCesta = () => {
       setShowCesta(true);
@@ -27,8 +33,8 @@ import { getProductData } from "../../pages/Shopping/productsStore";
       setShowModal(false);
     };
 
-    const handleWishlistIconClick = () => {
-     
+    const handleWishlistIconClick = () => {  // Asegúrate de pasar el producto correcto
+
       setShowWishlistModal(true);
     };
 
@@ -36,16 +42,26 @@ import { getProductData } from "../../pages/Shopping/productsStore";
       setShowWishlistModal(false);
     };
 
-    const totalCartItems = items.reduce((total, item) => total + item.quantity, 0);
+    const handleProfileClick = () => {
+      setProfileDropdownVisible(!isProfileDropdownVisible);
+    };
+
+    // const totalCartItems = items.reduce((total, item) => total + item.quantity, 0);
 
     return (
       <div className="botonera">
         <Link  aria-label="Buscar" onClick={handleIconClick}>
           <i className="bx bx-search-alt-2"></i>
         </Link>
-        <Link to="/formulario" aria-label="Mi perfil">
+        <span className="navigation_group">
+          <Link >
+            <i className="bx bx-user userProfile" onClick={handleProfileClick}></i>
+          </Link>
+            <UserProfileDropdown isVisible={isProfileDropdownVisible} />
+        </span>
+        {/* <Link to="/formulario" aria-label="Mi perfil">
           <i className="bx bx-user"></i>
-        </Link>
+        </Link> */}
         <Link aria-label="Lista de deseos" onClick={handleWishlistIconClick}>
         {/* Mantén el ícono de la lista de deseos aquí */}
         <i className="bx bx-heart"></i>
@@ -62,4 +78,4 @@ import { getProductData } from "../../pages/Shopping/productsStore";
 
   export default Botonera;
 
-
+ 

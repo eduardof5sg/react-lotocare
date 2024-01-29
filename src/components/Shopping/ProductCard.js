@@ -18,7 +18,7 @@ function ProductCard({ product }) {
 
         <Card.Title>{product.nombre}</Card.Title>
         <Card.Text>€{product.precio}</Card.Text>
-        <AddToFavoritesButton product={product} />
+        
         {productQuantity > 0 ? (
           <>
             <Form as={Row}>
@@ -49,6 +49,7 @@ function ProductCard({ product }) {
             >
               Eliminar del carrito
             </Button>
+           
           </>
         ) : (
           <Button
@@ -56,8 +57,10 @@ function ProductCard({ product }) {
             onClick={() => cart.addOneToCart(product.id)}
           >
             Añadir al carrito
-          </Button>
+          </Button> 
+          
         )}
+        <AddToFavoritesButton product={product} />
       </Card.Body>
     </Card>
   );
