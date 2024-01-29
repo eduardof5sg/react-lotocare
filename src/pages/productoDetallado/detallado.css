@@ -1,0 +1,40 @@
+.productoDetallado {
+    display: flex;
+    margin-top: 190px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15%;
+  }
+  
+  .imagenDetallada img {
+    height: 50vh;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 12px 5px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  .precio {
+    font-weight: bold;
+  }
+
+  .infoProducto {
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  .infoProducto h2 {
+    background-color: #83c5be;
+    color: rgb(255, 255, 255);
+  }
+
+.botonCarrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.cantidadProducto {
+    margin: 0 40px; /* Ajusta el margen según sea necesario */
+    font-weight: bold;
+  }

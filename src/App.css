@@ -2,20 +2,15 @@
   text-align: center;
 }
 
-/* INICIO Estilos de la parte de LUIS */
 .logo{
   width: 75px;
 }
 
-#BORRAR{
-  position: absolute;
-  top: 70px;
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  flex: 1;
-  overflow-y: auto;
-  z-index: 0;
-  background-image: url(../src/image/logo-pestana.svg);
+.home {
+  display: flex;
+  flex-direction: column;
 }
-/* FIN Estilos de la parte de LUIS */
+
+.card img{
+  height: 40vh;
+}

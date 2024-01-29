@@ -1,0 +1,52 @@
+.modal-content {
+  border: none;
+  width: 100%;
+  align-items: center;
+}
+
+.categories-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none; 
+    padding: 0; 
+    margin: 0;     
+    text-align: center;
+  }
+
+.products-section  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+   
+    
+  }
+
+.detalleBusqueda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.detalleBusqueda h5 {
+  width: 70%;
+  text-align: center;
+  margin-top: 5px;
+ 
+    
+}
+.detalleBusqueda p {
+  width: 70%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -10px;
+
+}
+
+.detalleBusqueda img {
+  height: 22vh;
+  width: 20vh;
+  border-radius: 10px;
+  box-shadow: 8px 5px 6px rgba(0, 0, 0, 0.3);
+}

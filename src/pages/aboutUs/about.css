@@ -1,0 +1,41 @@
+/* src/components/AboutUs.css */
+
+/* First row styles */
+.first-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .first-row img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  /* Second row styles */
+  .second-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .second-row h2 {
+    margin-right: 20px;
+  }
+  
+  .second-row img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Third row styles */
+  .third-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .third-row img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
