@@ -3,6 +3,7 @@ import { Card, Button, Form, Row, Col,} from "react-bootstrap";
 import { CartContext } from "./CartContext";
 import { Link } from 'react-router-dom';
 import AddToFavoritesButton from "../../components/wishlist/wishlist"
+import '../../components/Shopping/productCard.css'
 
 function ProductCard({ product }) {
   const cart = useContext(CartContext);
