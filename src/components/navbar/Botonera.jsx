@@ -71,7 +71,8 @@ import { getProductData } from "../../pages/Shopping/productsStore";
         </Link>
         <Cesta onHide={handleCloseCesta} showModal={showCesta} />
 
-        <ProductFilterModal  showModal={showModal}  onClose={handleCloseModal}      />
+        <ProductFilterModal  showModal={showModal}  onClose={handleCloseModal}/>
+        <WishlistModal  showModal={showWishlistModal} closeModal={handleCloseWishlistModal} />
       </div>
     );
   };
