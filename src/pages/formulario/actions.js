@@ -21,7 +21,7 @@
    }
  };
 
-
+// Cambio entre formularios
    const formContainer = document.getElementById("contenedorForms");
    const form1 = document.getElementById("formulario1");
    const form2 = document.getElementById("formulario2");
@@ -80,4 +80,3 @@ b2.addEventListener("click", () => {
     document.formRegistro.addEventListener('click', () => {
       mostrarFormulario(form2);
     });
-    
