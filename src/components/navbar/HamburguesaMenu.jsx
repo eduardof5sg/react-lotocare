@@ -21,8 +21,8 @@ const HamburguesaMenu = () => {
           {/* Utilizar Link en lugar de <a> */}
           <Link to="/" onClick={() => setMenuOpen(false)}>Inicio</Link>
           <Link to="/productos" onClick={() => setMenuOpen(false)}>Productos</Link>
-          <Link to="/aboutUs" onClick={() => setMenuOpen(false)}>Sobre nosotros</Link>
-          <Link to="/equipo" onClick={() => setMenuOpen(false)}>Contacto</Link>
+          <Link to="/aboutUs" onClick={() => setMenuOpen(false)}>Sobre Nosotros</Link>
+          <Link to="/equipo" onClick={() => setMenuOpen(false)}>Equipo</Link>
         </div>
       )}
     </div>
